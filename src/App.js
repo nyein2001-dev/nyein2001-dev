@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfileCard from './components/ProfileCard';
 import ResumeCard from './components/ResumeCard';
-import InfoCard from './components/InfoCard';
+import InfoCard from './components/InfoCard.tsx';
 import SkillCard from './components/SkillCard';
 import LanguageCard from './components/LanguageCard';
 import AboutCard from './components/AboutCard';
@@ -13,7 +13,6 @@ function App() {
   const { i18n } = useTranslation();
 
   React.useEffect(() => {
-    // Set locale
     const storedLocale = localStorage.getItem('locale');
     if (storedLocale) {
       i18n.changeLanguage(storedLocale);

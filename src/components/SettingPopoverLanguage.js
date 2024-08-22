@@ -4,7 +4,7 @@ import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import { useTranslation } from "react-i18next";
 import { getImagePath } from "../helpers/Helper"; 
 import { useResumeStore } from "../stores/ResumeContext"; 
-import i18n from "../i18n"; // Ensure correct import of your i18n setup
+import i18n from "../i18n";
 
 const languages = [
   { name: "settings.pt", code: "pt-BR", flag: "svg/brazil.svg" },

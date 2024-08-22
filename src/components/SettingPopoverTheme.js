@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch } from "@headlessui/react";
-import { useThemeStore } from "../stores/ThemeContext"; // Path to your ThemeStore
+import { useThemeStore } from "../stores/ThemeContext";
 
 const SettingPopoverTheme = () => {
   const { darkMode, toggleTheme } = useThemeStore();

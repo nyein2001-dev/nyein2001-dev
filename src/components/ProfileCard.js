@@ -18,7 +18,7 @@ const ProfileCard = () => {
   };
 
   return (
-    <div className="card">
+    <div className="rounded-xl bg-white p-7 dark:bg-night-800">
       <div className="flex items-start justify-between">
         <div className="flex items-start gap-3">
           {/* Start profile avatar */}
