@@ -3,8 +3,10 @@ import { Popover } from '@headlessui/react';
 import { Cog6ToothIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/outline';
 import SettingPopoverTheme from './SettingPopoverTheme';
 import SettingPopoverLanguage from './SettingPopoverLanguage';
+import { useTranslation } from "react-i18next";
 
 const SettingPopover = () => {
+  const { t } = useTranslation();
   return (
     <Popover className="relative">
       <Popover.Button className="rounded-lg bg-gray-100 px-0.5 text-xs text-gray-400 focus:outline-none dark:bg-night-700 dark:text-night-200 dark:hover:bg-night-600">
@@ -17,7 +19,7 @@ const SettingPopover = () => {
             <span className="flex items-center gap-2">
               <Cog6ToothIcon className="h-5 w-5 text-gray-500 dark:text-night-200" />
               <span className="text-sm font-medium text-gray-900 dark:text-night-50">
-                Settings
+              {t("settings.title")}
               </span>
             </span>
           </div>
