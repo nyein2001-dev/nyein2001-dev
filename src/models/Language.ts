@@ -4,3 +4,7 @@ export interface Language {
     flag: string;
     level?: string;
   }
+
+ export interface LanguageCardProps {
+    item: Language;
+  }
