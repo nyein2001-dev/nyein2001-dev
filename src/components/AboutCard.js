@@ -1,23 +1,22 @@
-// src/components/AboutCard.js
-import React from 'react';
-import { Link } from 'react-router-dom';
-import HeroIcon from './HeroIcon.tsx';
+import React from "react";
+import { Link } from "react-router-dom";
+import HeroIcon from "./HeroIcon.tsx";
 import { useResumeStore } from "../stores/ResumeContext";
-import i18n from '../i18n';
+import i18n from "../i18n";
 
 const AboutCard = () => {
   const { resume } = useResumeStore();
 
   const menu = [
-    { route: '/', name: 'menu.experience', icon: 'BriefcaseIcon' },
-    { route: 'education', name: 'menu.education', icon: 'AcademicCapIcon' },
-    { route: 'project', name: 'menu.project', icon: 'CodeBracketIcon' },
+    { route: "/", name: "menu.experience", icon: "BriefcaseIcon" },
+    { route: "education", name: "menu.education", icon: "AcademicCapIcon" },
+    { route: "project", name: "menu.project", icon: "CodeBracketIcon" },
   ];
 
   return (
     <div className="rounded-xl bg-white p-7 dark:bg-night-800">
       <h2 className="mb-4 text-lg font-semibold dark:text-night-50">
-        {i18n.t('about')}
+        {i18n.t("about")}
       </h2>
       <p className="mb-5 text-sm text-gray-600 dark:text-night-200">
         {resume.profile.aboutMe}
