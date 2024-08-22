@@ -11,9 +11,11 @@ const SettingPopoverTheme = () => {
     <div className="flex items-center justify-between rounded-lg transition duration-150 ease-in-out focus:outline-none focus-visible:ring focus-visible:ring-primary-500 focus-visible:ring-opacity-50">
       <div className="mr-4">
         <p className="text-sm font-medium text-gray-900 dark:text-night-50">
-        {t("settings.theme")}
+          {t("settings.theme")}
         </p>
-        <p className="text-sm text-gray-500 dark:text-night-300">{t("settings.dark_mode")}</p>
+        <p className="text-sm text-gray-500 dark:text-night-300">
+          {t("settings.dark_mode")}
+        </p>
       </div>
       <Switch
         checked={darkMode}
