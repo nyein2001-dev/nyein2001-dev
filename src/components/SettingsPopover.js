@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Popover } from '@headlessui/react';
 import { Cog6ToothIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/outline';
 import SettingPopoverTheme from './SettingPopoverTheme';
