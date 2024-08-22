@@ -1,4 +1,5 @@
 import React from 'react';
+import i18n from './i18n';
 import ProfileCard from './components/ProfileCard';
 import ResumeCard from './components/ResumeCard';
 import InfoCard from './components/InfoCard.tsx';
@@ -7,7 +8,7 @@ import LanguageCard from './components/LanguageCard.tsx';
 import AboutCard from './components/AboutCard';
 import { ThemeProvider } from './stores/ThemeContext';
 import { ResumeProvider } from './stores/ResumeContext';
-import { useTranslation } from 'react-i18next';
+import { I18nextProvider, useTranslation } from 'react-i18next';
 
 function App() {
   const { i18n } = useTranslation();
@@ -41,4 +42,10 @@ function App() {
   );
 }
 
-export default App;
+export default function Root() {
+  return (
+    <I18nextProvider i18n={i18n}>
+      <App />
+    </I18nextProvider>
+  );
+}
