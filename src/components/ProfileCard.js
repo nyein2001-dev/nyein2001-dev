@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import { useResumeStore } from '../stores/ResumeContext'; // Assuming you have a ResumeContext
-import SettingsPopover from './SettingsPopover'; // Convert your SettingsPopover.vue to a React component
+import { useResumeStore } from '../stores/ResumeContext';
+import SettingsPopover from './SettingsPopover';
 import { getImagePath } from '../helpers/Helper';
 import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css'; // This is only needed if you're using react-image-lightbox
+import 'react-image-lightbox/style.css';
 
 const ProfileCard = () => {
   const { resume } = useResumeStore();
   const [visible, setVisible] = useState(false);
   const [imgs, setImgs] = useState([]);
-  const [index, setIndex] = useState(0);
 
   const onHide = () => setVisible(false);
 
@@ -32,7 +31,7 @@ const ProfileCard = () => {
           {/* End profile avatar */}
           {visible && (
             <Lightbox
-              mainSrc={imgs[index]}
+              mainSrc={imgs[0]}
               onCloseRequest={onHide}
             />
           )}
@@ -58,9 +57,7 @@ const ProfileCard = () => {
             </div>
           </div>
         </div>
-        {/* More Options */}
         <SettingsPopover />
-        {/* End status badge */}
       </div>
       <div className=""></div>
     </div>
