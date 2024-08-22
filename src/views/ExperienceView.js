@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import ExperienceCard from "../components/ExperienceCard";
+import VolunteerCard from "../components/VolunteerCard";
 
-function ExperienceView() {
+const ExperienceView = () => {
   return (
-    <div>Experience View</div>
+    <div>
+      <ExperienceCard />
+      <VolunteerCard />
+    </div>
   );
-}
+};
 
 export default ExperienceView;
