@@ -166,67 +166,31 @@
   ],
   "certificate": [
     {
-      "course": "Microsoft Azure Data Engineering Associate (DP-203)",
-      "school": "Coursera",
+      "course": "Java Standard Edition, Spring Framework & Angular Framework",
+      "school": "Java Developer Class - Yangon",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2000",
+      "issueDate": "march 27 2023",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering"
+      "credentialCode": "",
+      "url": "https://docs.google.com/document/d/1RQTaLzh44dVQn44hEFdzbQlMn6CePTm54MtcLS_BSIE/edit?usp=sharing"
     },
     {
-      "course": "Microsoft 365 Fundamentals",
-      "school": "Coursera",
+      "course": "Mobile Development Tools & Frameworks",
+      "school": "Mobile ToolKit -Magway",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2001",
+      "issueDate": "march 2019",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-365-fundamentals"
+      "credentialCode": "",
+      "url": ""
     },
     {
-      "course": "Microsoft Azure Fundamentals AZ-900 Exam Prep",
-      "school": "Coursera",
+      "course": "Electronic Basics with Arduino",
+      "school": "@SawMinTun",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2002",
+      "issueDate": "oct 2020",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-fundamentals-az-900"
-    },
-    {
-      "course": "Microsoft Azure Data Scientist Associate (DP-100)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2003",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-data-scientist"
-    },
-    {
-      "course": "Microsoft Azure AI Fundamentals AI-900 Exam Prep",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2004",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals"
-    },
-    {
-      "course": "Microsoft Azure Developer Associate (AZ-204)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2005",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-developer-associate"
-    },
-    {
-      "course": "Work Smarter with Microsoft Excel",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2006",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/learn/microsoft-excel-work-smarter"
+      "credentialCode": "",
+      "url": ""
     }
   ],
   "project": [
