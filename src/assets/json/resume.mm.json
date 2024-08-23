@@ -199,8 +199,8 @@
       "description": "City Lens App သည် မြို့တွင်း အချက်အလက်များကို စုဆောင်းပြီး ခေတ်မီနည်းပညာများဖြင့် ပုံမှန် မြေပုံများကို မြှင့်တင်ပေးသည့် သုတေသန ကိရိယာတစ်ခုဖြစ်သည်။ အပတ်ပေါင်းများစွာ ခန့်မှန်းချက်တစ်ခုကို ပေးစွမ်းပြီး မြေညီကိုင်းသုံးအချက်အလက်များဖြင့် ရှေးခါက၏ သွားလာမှု၊ ကားသွားလမ်းကြောင်းများ၊ အမြန်နှုန်း၊ အကွာအဝေး၊ နောက်ဆုံးရောက်ရှိမည့် နေရာများကို ခန့်မှန်းချက်ပေးသည်။",
       "language": "Kotlin",
       "image": "img/project/citylens.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/CityLens"
     },
     {
@@ -208,8 +208,8 @@
       "description": "ArtStream သည် အနုပညာဖန်တီးမှုများကို အစဉ်မပြတ် ဖော်ပြသည့် ဝဘ်အက်ပလီကေးရှင်း ဝဘ်ရှေ့စာမျက်နှာ ဒီဇိုင်း တစ်ခုဖြစ်ပြီး Angular ကို အသုံးပြု၍ Front-end ဖွံ့ဖြိုးရေးကို ပြုလုပ်ထားပြီး Firebase ကို အသုံးပြု၍ အသုံးပြုသူ သက်သေပြုခြင်းကို ပြုလုပ်သည်။",
       "language": "Typescript",
       "image": "img/project/artstreams.png",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/ArtStream"
     },
     {
@@ -217,8 +217,8 @@
       "description": "SkySnap သည် Flutter ဖြင့် တည်ဆောက်ထားသော ရိုးရှင်းပြီး အသုံးပြုရလွယ်ကူသော မိုးလေဝသအက်ပလီကေးရှင်းတစ်ခုဖြစ်သည်။ ဤအက်ပလီကေးရှင်းသည် OpenWeatherMap API ကို အသုံးပြု၍ အချိန်နှင့်တပြေးညီ မိုးလေဝသအချက်အလက်များကို ပေးစွမ်းသည်။",
       "language": "Dart",
       "image": "img/project/skysnap.png",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/SkySnap"
     },
     {
@@ -226,8 +226,8 @@
       "description": "City Lens Web နှင့် မိုဘိုင်းအက်ပလီကေးရှင်းများအတွက် Django နှင့် PostgreSQL အပေါ်အခြေခံထားသော Backend API ဖြစ်ပြီး မြေပုံအချက်အလက်များကို အကျိုးသက်ရောက်မှုရှိစွာ ကိုင်တွယ်ပေးသည်။",
       "language": "Python",
       "image": "img/project/citylens.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/city-lens-backend"
     },
     {
@@ -235,8 +235,8 @@
       "description": "LetDrive သည် တက္ကစီအား စိတ်ချရသော ဝန်ဆောင်မှုကို ဖန်တီးပေးရန် ရည်ရွယ်ထားသည့် အက်ပလီကေးရှင်းဖြစ်ပြီး Proof-Of-Concept (POC) ကို အင်္ဂါရပ်များနှင့်အတူ စမ်းသပ်ရန် အဓိကထားသည်။ Google account ဖြင့် ဝင်ရောက်စိစစ်ခြင်း၊ Firebase မှ အလုပ်စာရင်းများကို ရယူခြင်း၊ နေရာရှာဖွေမှုများအတွက် Geolocation နှင့် မြေပုံများကို အသုံးပြုခြင်းကို လုပ်ဆောင်နိုင်သည်။",
       "language": "Java",
       "image": "img/project/android.webp",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/LetDrive"
     },
     {
@@ -244,8 +244,8 @@
       "description": "Thuta Book Store သည် Spring Boot ဖြင့် ဖွံ့ဖြိုးထားသော စာအုပ်ရောင်းချပွဲ စီမံခန့်ခွဲမှုစနစ်ဖြစ်ပြီး အချက်အလက်သုံးသပ်ခြင်းကို လွယ်ကူစွာပြုလုပ်နိုင်ရန် ပြင်ဆင်ချက်များစွာ ပါဝင်သည်။",
       "language": "Javascript",
       "image": "img/project/thuta.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Thuta-Book-Store"
     },
     {
@@ -253,8 +253,8 @@
       "description": "City Lens Web အတွက် React နှင့် D3.js ဖြင့် တည်ဆောက်ထားသော Frontend ဖြစ်ပြီး, JSON ဖိုင်များမှ Geolocation အချက်အလက်များကို ဒိုင်နမစ် Visualizations ပုံဖော်ပြသည်။ အဆင်ပြေသော Interface ဖြင့် တည်ဆောက်ထားပြီး မြေဧရိယာ ပုံစံများကို ရှာဖွေသုံးသပ်နိုင်ရန် ပြင်ဆင်ချက်များစွာ ပါဝင်သည်။",
       "language": "Javascript",
       "image": "img/project/citylens.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/city-lens-web-frontend"
     },
     {
@@ -262,8 +262,8 @@
       "description": "Custom-Bottom-App-Bar သည် လုပ်ငန်းပေးမှု အတတ်နိုင်ဆုံး ဖြင့် Loading ပုံစံကို ပြောင်းလဲပေးသည်။ ၂ နာရီအတွင်း စိန်ခေါ်မှုများကို ဖြေရှင်းပြီး အကျိုးသက်ရောက်မှု၊ ပြုပြင်ခြင်းနှင့် အသုံးပြုသူများမှ တင်ပြချက်များကို ပေါင်းစပ်ထားသည်။ UI ဒီဇိုင်း နယ်ပယ်တွင် ကျော်လွှားသော အသိုင်းအဝိုင်းနှင့် ပူးပေါင်းပါဝင်ပါ။",
       "language": "Dart",
       "image": "img/project/flutter.png",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Custom-Bottom-App-Bar"
     },
     {
@@ -271,8 +271,8 @@
       "description": "CurrencyX သည် နေ့စဉ် အသုံးပြုရလွယ်ကူသော အက်ပလီကေးရှင်းဖြစ်ပြီး ငွေကြေးများ၏ လက်ရှိ ဈေးနှုန်းများနှင့် အတိတ်မှတ်တမ်းများကို သိရှိနိုင်သည်။ BTC နှင့် USD, GBP, EUR အားလုံး၏ ဈေးနှုန်းများကို API မှာ နေ့စဉ် ၁ မိနစ်တစ်ကြိမ် အဖြစ် တိုးမြှင့်ပေးသည်။ BTC, USD, GBP, EUR တို့အကြား ငွေကျပ်နှုန်းများကို အလွယ်တကူ တွက်ချက်နိုင်သည်။",
       "language": "Java",
       "image": "img/project/x.jfif",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Currency"
     },
     {
@@ -280,8 +280,8 @@
       "description": "V-Connect သည် အချိန်နှင့်တပြေးညီ ပြသပေးနိုင်သည့် အက်ပလီကေးရှင်းတစ်ခုဖြစ်ပြီး, အဖွင့်ဝင်ရန် လက်မှတ်တက်ထားခြင်းနှင့် လက်မှတ် မတက်ထားခြင်းအတွက် လုံခြုံမှုကို တိုးတက်စေသည်။ အသုံးပြုသူများသည် ပရိုဖိုင်များကို အလွယ်တကူ စီမံခန့်ခွဲနိုင်ပြီး, Google Pay, Apple Pay, Stripe များဖြင့် ငွေပေးချေမှုများကို လွယ်ကူစွာ ပြုလုပ်နိုင်ရန် ပြင်ဆင်ချက်များစွာ ပါဝင်သည်။",
       "language": "Dart",
       "image": "img/project/v.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/V-Connect"
     },
     {
@@ -289,8 +289,8 @@
       "description": "Responsive Android Splash Wallpaper",
       "language": "Java",
       "image": "img/project/s.jfif",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Splash-Wallpaper"
     }
   ]

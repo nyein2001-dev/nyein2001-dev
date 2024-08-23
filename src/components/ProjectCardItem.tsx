@@ -59,25 +59,27 @@ const ProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
                   <span>{item.downloads}</span>
                 </div>
               )}
+              {item.url && (
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-sm font-medium"
+                >
+                  <HeroIcon
+                    icon="LinkIcon"
+                    isSolid={false}
+                    className="h-4 w-4 shrink-0 stroke-2"
+                  />
+                  <span>Github</span>
+                </a>
+              )}
             </div>
           </div>
         </div>
         <p className="text-sm text-gray-600 dark:text-night-300">
           {item.description}
         </p>
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex cursor-pointer items-center gap-1 rounded-lg border-2 border-gray-100 px-2 py-1.5 text-xs font-medium text-gray-400 hover:border-primary-500 hover:bg-primary-500 hover:text-white dark:border-night-700 dark:text-night-400 dark:hover:border-primary-500 dark:hover:bg-primary-500/20 dark:hover:text-primary-500"
-        >
-          <HeroIcon
-            icon="LinkIcon"
-            isSolid={false}
-            className="h-4 w-4 shrink-0 stroke-2"
-          />
-          <span>Github</span>
-        </a>
         {separator && (
           <div className="border-b border-dashed border-gray-200 dark:border-night-600"></div>
         )}

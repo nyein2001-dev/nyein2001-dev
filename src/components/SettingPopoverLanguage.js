@@ -8,7 +8,7 @@ import i18n from "../i18n";
 
 const languages = [
   { name: "settings.en", code: "en-US", flag: "svg/united-states.svg" },
-  { name: "settings.pt", code: "pt-BR", flag: "svg/brazil.svg" },
+  { name: "settings.pt", code: "pt-BR", flag: "svg/myanmar.svg" },
 ];
 
 const SettingPopoverLanguage = () => {

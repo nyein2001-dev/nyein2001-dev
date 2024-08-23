@@ -199,8 +199,8 @@
       "description": "City Lens App is a research tool that collects and analyzes geo-tracking data within cities to enhance traditional maps with cutting-edge technology. Utilizing deep learning, the app offers precise predictions for travel time, bus occupancy, speed, distance, and optimal routes, transforming conventional maps into modern, useful navigation tools.",
       "language": "Kotlin",
       "image": "img/project/citylens.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/CityLens"
     },
     {
@@ -208,8 +208,8 @@
       "description": "ArtStream is a web application that conveys the idea of a continuous flow of art and creativity, much like a newsfeed, and is short and memorable. This project utilizes Angular for front-end development and Firebase for user authentication.",
       "language": "Typescript",
       "image": "img/project/artstreams.png",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/ArtStream"
     },
     {
@@ -217,8 +217,8 @@
       "description": "SkySnap is a simple and intuitive weather application built using Flutter. It provides current weather information for any given city using the OpenWeatherMap API. This app is designed with a clean and responsive UI that works seamlessly on both mobile and tablet devices.",
       "language": "Dart",
       "image": "img/project/skysnap.png",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/SkySnap"
     },
     {
@@ -226,8 +226,8 @@
       "description": "A Django and PostgreSQL-powered backend API for City Lens Web and Mobile, enabling dynamic geolocation data visualization from JSON files. Features efficient data handling for analyzing geographical patterns.",
       "language": "Python",
       "image": "img/project/citylens.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/city-lens-backend"
     },
     {
@@ -235,8 +235,8 @@
       "description": "LetDrive is a revolutionary mobile app designed to streamline the taxi driver experience by connecting them with customers seamlessly. With a dynamic and intuitive interface, LetDrive aims to enhance driver satisfaction and efficiency. Our Proof-Of-Concept (POC) version focuses on essential features to test our innovative ideas with drivers. Experience hassle-free authentication with Google account login, access a list of customer jobs retrieved from Firebase, view driver profiles with key information, and utilize geolocation and maps for efficient navigation. LetDrive is shaping the future of taxi services.",
       "language": "Java",
       "image": "img/project/android.webp",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/LetDrive"
     },
     {
@@ -244,8 +244,8 @@
       "description": "Thuta Book Store is a comprehensive Book Store Management System developed using Spring Boot. With an intuitive Admin panel, administrators can efficiently manage orders, and user accounts. Meanwhile, regular users can seamlessly search for books and add them to their carts for a convenient shopping experience.",
       "language": "Javascript",
       "image": "img/project/thuta.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Thuta-Book-Store"
     },
     {
@@ -253,8 +253,8 @@
       "description": "A React and D3.js-powered frontend for City Lens Web, offering dynamic visualizations of geolocation data from JSON files. Designed for analyzing geographical patterns with an intuitive interface.",
       "language": "Javascript",
       "image": "img/project/citylens.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001-dev/city-lens-web-frontend"
     },
     {
@@ -262,8 +262,8 @@
       "description": "Custom-Bottom-App-Bar redefines the loading experience with its sleek design and user-friendly interface. This challenging two-hour project delivers optimized performance, customization options, and integrates valuable user feedback. Join a vibrant community pushing the boundaries of UI design.",
       "language": "Dart",
       "image": "img/project/flutter.png",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Custom-Bottom-App-Bar"
     },
     {
@@ -271,8 +271,8 @@
       "description": "CurrencyX is your go-to app for live currency exchange rates and historical data tracking. Get real-time updates on BTC's currency rates against USD, GBP, and EUR from our API, refreshed every minute. Dive into currency history with recorded rates and easily calculate exchanges between BTC, USD, GBP, and EUR using our intuitive interface.",
       "language": "Java",
       "image": "img/project/x.jfif",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Currency"
     },
     {
@@ -280,8 +280,8 @@
       "description": "V-Connect is a state-of-the-art app offering real-time display, social login, and manual registration for enhanced security. Users can effortlessly manage profiles, enjoy seamless payment processing with Google Pay, Apple Pay, and Stripe, and engage with interactive features like a spin wheel.",
       "language": "Dart",
       "image": "img/project/v.jfif",
-      "stars": "+138k",
-      "forks": "23.8k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/V-Connect"
     },
     {
@@ -289,8 +289,8 @@
       "description": "Responsive Android Splash Wallpaper",
       "language": "Java",
       "image": "img/project/s.jfif",
-      "stars": "+85.3k",
-      "forks": "11.1k",
+      "stars": "",
+      "forks": "",
       "url": "https://github.com/nyein2001/Splash-Wallpaper"
     }
   ]
