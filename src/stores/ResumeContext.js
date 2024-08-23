@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import ptBR from '../assets/json/resume.pt.json';
+import ptBR from '../assets/json/resume.mm.json';
 import enUS from '../assets/json/resume.en.json';
 
 const ResumeContext = createContext();

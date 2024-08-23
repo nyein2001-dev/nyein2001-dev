@@ -1,0 +1,297 @@
+{
+  "profile": {
+    "name": "Nyein Chan Toe",
+    "job": "Mobile Developer",
+    "avatar": "img/profile/me.jpg",
+    "aboutMe": "Seasoned mobile developer with a strong passion for innovation, specializing in both iOS and Android platforms. Expertise includes crafting user-centric apps with seamless functionality, spanning native and cross-platform development, backend integration, and emerging tech adoption, all aimed at elevating user experiences.",
+    "socialNetwork": [
+      {
+        "name": "github",
+        "url": "https://github.com/nyein2001-dev"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/nyein-chan-toe/"
+      }
+    ]
+  },
+  "cv": {
+    "icon": "DocumentTextIcon",
+    "name": "PDF",
+    "value": "Nyein Chan Toe",
+    "url": "https://drive.google.com/file/d/1_S4dHlI8ydUUqSfH-hVzyIruqGGoxNx3/view?pli=1"
+  },
+  "information": [
+    {
+      "icon": "EnvelopeIcon",
+      "name": "Mail address",
+      "value": "nyeinchantoe0@gmail.com"
+    },
+    {
+      "icon": "CakeIcon",
+      "name": "23 Years old",
+      "value": "12 February 2001"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "Phone Number",
+      "value": "+66 (061) 767 8798"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Address",
+      "value": "Bangkok, Thailand"
+    },
+    {
+      "icon": "ComputerDesktopIcon",
+      "name": "Work type",
+      "value": "Remote or Fulltime"
+    }
+  ],
+  "skill": [
+    "Kotlin",
+    "Flutter",
+    "Dart",
+    "Swift",
+    "React Native",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "SwiftUI",
+    "React",
+    "NodeJS",
+    "Android Jetpack",
+    "Docker",
+    "CI/CD",
+    "APIs Integration",
+    "Mobile UI/UX Design",
+    "GraphQL",
+    "Firebase",
+    "Redux",
+    "Python",
+    "Django",
+    "C#",
+    "Spring Boot",
+    "HTML",
+    "PostgreSQL",
+    "MySQL",
+    "Microsoft SQL",
+    "RESTful APIs",
+    "Git",
+    "Performance Optimization",
+    "Unit Testing",
+    "Integration Testing",
+    "Flutter BLoC",
+    "Mobile App Security",
+    "WebSockets",
+    "Agile Methodologies",
+    "Android Studio",
+    "Xcode"
+  ],
+  "language": [
+    {
+      "name": "English",
+      "code": "pt-BR",
+      "flag": "svg/united-states.svg",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Burmese",
+      "code": "en-US",
+      "flag": "svg/myanmar.svg",
+      "level": "Native Language"
+    }
+  ],
+  "experience": [
+    {
+      "job": "Mobile Developer",
+      "company": "Myanmar Information Technology Pte Ltd",
+      "companyLogo": "img/company/mit.png",
+      "location": "Yangon",
+      "workType": "Fulltime",
+      "start": "feb 2023",
+      "end": "may 2024",
+      "description": "Guided by the belief that every life has equal value, the Bill & Melinda Gates Foundation works to help all people lead healthy, productive lives. In developing countries, it focuses on improving people’s health and giving them the chance to lift themselves out of hunger and extreme poverty. In the United States, it seeks to ensure that all people—especially those with the fewest resources—have access to the opportunities they need to succeed in school and life. Based in Seattle, Washington, the foundation is led by CEO Mark Suzman, under the direction of co-chairs Bill Gates and Melinda French Gates and the board of trustees."
+    },
+    {
+      "job": "Mobile Developer",
+      "company": "Project Stores",
+      "companyLogo": "img/company/ps.jfif",
+      "location": "Delhi, India",
+      "workType": "Remote",
+      "start": "dec 2023",
+      "end": "feb 2024",
+      "description": "At Project Stores, I've led the creation of Mobile Application, a top-tier app designed to provide users with a seamless and secure online experience. Leveraging my skills in UI/UX design, API integration, and security measures, I've developed a platform that offers real-time display, secure authentication, and hassle-free payment options. Users can effortlessly manage profiles, maintain anonymity online, and enjoy uninterrupted browsing with just a tap. My focus on user privacy and commitment to excellence has positioned as a trusted solution for those seeking enhanced online security and privacy."
+    },
+    {
+      "job": "Data Entry",
+      "company": "Blue Ocean Operating Management Co., Ltd.",
+      "companyLogo": "img/company/blueocean.jfif",
+      "location": "Yangon",
+      "workType": "Fulltime",
+      "start": "oct 2022",
+      "end": "mar 2023",
+      "description": "As a Data Entry Associate at Blue Ocean Operating Management Co., Ltd., I was responsible for accurately inputting, updating, and maintaining data within the company’s database systems, ensuring data quality and integrity through regular checks and corrections. I managed and organized records, prepared reports, and supported system updates while troubleshooting data entry issues. My role involved collaborating with various departments to gather and verify information, maintaining confidentiality of sensitive data, and contributing to process improvements for enhanced efficiency. Additionally, I provided general administrative support, including filing and scanning documents, and assisted with other office duties as needed."
+    }
+  ],
+  "education": [
+    {
+      "college": "University of Computer Studies - Magway",
+      "collegeLogo": "img/college/ucsmgy.jpg",
+      "course": "Computer Science and Technology",
+      "start": "12/2017",
+      "end": " 8/2020",
+      "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
+    },
+    {
+      "college": "Basic Education High School - Seikphyu",
+      "collegeLogo": "img/college/behs.jfif",
+      "course": "High School Matriculation",
+      "start": "2006",
+      "end": "2016",
+      "url": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "job": "Mobile Developer",
+      "company": "Ani",
+      "companyLogo": "img/company/ani.jfif",
+      "location": "Isekai, US",
+      "workType": "Remote",
+      "start": "march 2024",
+      "end": "april 2024",
+      "description": "In my role at the company, I've been instrumental in reinventing social media for niche communities. By leveraging my skills in UI/UX design, API integration, and database management, I've contributed to creating a platform that caters specifically to the interests of anime, manga, and gaming enthusiasts. Through intuitive design and seamless integration of features like news updates and community engagement tools, we've provided a space where users can connect, discover, and stay informed about their passions. My commitment to user-centric design and continuous improvement has been key to ensuring the platform's success in serving the needs of our niche community."
+    }
+  ],
+  "certificate": [
+    {
+      "course": "Java Standard Edition, Spring Framework & Angular Framework",
+      "school": "Java Developer Class - Yangon",
+      "schoolLogo": "img/college/jdc.png",
+      "issueDate": "march 27 2023",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://docs.google.com/document/d/1RQTaLzh44dVQn44hEFdzbQlMn6CePTm54MtcLS_BSIE/edit?usp=sharing"
+    },
+    {
+      "course": "Mobile Development Tools & Frameworks",
+      "school": "Mobile ToolKit -Magway",
+      "schoolLogo": "img/college/mdf.jfif",
+      "issueDate": "march 2019",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": ""
+    },
+    {
+      "course": "Electronic Basics with Arduino",
+      "school": "@SawMinTun",
+      "schoolLogo": "img/college/arduino.jfif",
+      "issueDate": "oct 2020",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": ""
+    }
+  ],
+  "project": [
+    {
+      "name": "City Lens",
+      "description": "City Lens App is a research tool that collects and analyzes geo-tracking data within cities to enhance traditional maps with cutting-edge technology. Utilizing deep learning, the app offers precise predictions for travel time, bus occupancy, speed, distance, and optimal routes, transforming conventional maps into modern, useful navigation tools.",
+      "language": "Kotlin",
+      "image": "img/project/citylens.jfif",
+      "stars": "+138k",
+      "forks": "23.8k",
+      "url": "https://github.com/nyein2001-dev/CityLens"
+    },
+    {
+      "name": "Art Stream",
+      "description": "ArtStream is a web application that conveys the idea of a continuous flow of art and creativity, much like a newsfeed, and is short and memorable. This project utilizes Angular for front-end development and Firebase for user authentication.",
+      "language": "Typescript",
+      "image": "img/project/artstreams.png",
+      "stars": "+85.3k",
+      "forks": "11.1k",
+      "url": "https://github.com/nyein2001-dev/ArtStream"
+    },
+    {
+      "name": "Sky Snap",
+      "description": "SkySnap is a simple and intuitive weather application built using Flutter. It provides current weather information for any given city using the OpenWeatherMap API. This app is designed with a clean and responsive UI that works seamlessly on both mobile and tablet devices.",
+      "language": "Dart",
+      "image": "img/project/skysnap.png",
+      "stars": "+138k",
+      "forks": "23.8k",
+      "url": "https://github.com/nyein2001-dev/SkySnap"
+    },
+    {
+      "name": "City Lens Backend",
+      "description": "A Django and PostgreSQL-powered backend API for City Lens Web and Mobile, enabling dynamic geolocation data visualization from JSON files. Features efficient data handling for analyzing geographical patterns.",
+      "language": "Python",
+      "image": "img/project/citylens.jfif",
+      "stars": "+138k",
+      "forks": "23.8k",
+      "url": "https://github.com/nyein2001-dev/city-lens-backend"
+    },
+    {
+      "name": "Let Drive",
+      "description": "LetDrive is a revolutionary mobile app designed to streamline the taxi driver experience by connecting them with customers seamlessly. With a dynamic and intuitive interface, LetDrive aims to enhance driver satisfaction and efficiency. Our Proof-Of-Concept (POC) version focuses on essential features to test our innovative ideas with drivers. Experience hassle-free authentication with Google account login, access a list of customer jobs retrieved from Firebase, view driver profiles with key information, and utilize geolocation and maps for efficient navigation. LetDrive is shaping the future of taxi services.",
+      "language": "Java",
+      "image": "img/project/android.webp",
+      "stars": "+85.3k",
+      "forks": "11.1k",
+      "url": "https://github.com/nyein2001/LetDrive"
+    },
+    {
+      "name": "Thuta Book Store",
+      "description": "Thuta Book Store is a comprehensive Book Store Management System developed using Spring Boot. With an intuitive Admin panel, administrators can efficiently manage orders, and user accounts. Meanwhile, regular users can seamlessly search for books and add them to their carts for a convenient shopping experience.",
+      "language": "Javascript",
+      "image": "img/project/thuta.jfif",
+      "stars": "+138k",
+      "forks": "23.8k",
+      "url": "https://github.com/nyein2001/Thuta-Book-Store"
+    },
+    {
+      "name": "City Lens Web",
+      "description": "A React and D3.js-powered frontend for City Lens Web, offering dynamic visualizations of geolocation data from JSON files. Designed for analyzing geographical patterns with an intuitive interface.",
+      "language": "Javascript",
+      "image": "img/project/citylens.jfif",
+      "stars": "+138k",
+      "forks": "23.8k",
+      "url": "https://github.com/nyein2001-dev/city-lens-web-frontend"
+    },
+    {
+      "name": "Flutter Custom Bottom Appbar",
+      "description": "Custom-Bottom-App-Bar redefines the loading experience with its sleek design and user-friendly interface. This challenging two-hour project delivers optimized performance, customization options, and integrates valuable user feedback. Join a vibrant community pushing the boundaries of UI design.",
+      "language": "Dart",
+      "image": "img/project/flutter.png",
+      "stars": "+138k",
+      "forks": "23.8k",
+      "url": "https://github.com/nyein2001/Custom-Bottom-App-Bar"
+    },
+    {
+      "name": "CurrencyX : Real-time Exchange & History Tracker",
+      "description": "CurrencyX is your go-to app for live currency exchange rates and historical data tracking. Get real-time updates on BTC's currency rates against USD, GBP, and EUR from our API, refreshed every minute. Dive into currency history with recorded rates and easily calculate exchanges between BTC, USD, GBP, and EUR using our intuitive interface.",
+      "language": "Java",
+      "image": "img/project/x.jfif",
+      "stars": "+85.3k",
+      "forks": "11.1k",
+      "url": "https://github.com/nyein2001/Currency"
+    },
+    {
+      "name": "V-Connect",
+      "description": "V-Connect is a state-of-the-art app offering real-time display, social login, and manual registration for enhanced security. Users can effortlessly manage profiles, enjoy seamless payment processing with Google Pay, Apple Pay, and Stripe, and engage with interactive features like a spin wheel.",
+      "language": "Dart",
+      "image": "img/project/v.jfif",
+      "stars": "+138k",
+      "forks": "23.8k",
+      "url": "https://github.com/nyein2001/V-Connect"
+    },
+    {
+      "name": "Splash Wallpaper",
+      "description": "Responsive Android Splash Wallpaper",
+      "language": "Java",
+      "image": "img/project/s.jfif",
+      "stars": "+85.3k",
+      "forks": "11.1k",
+      "url": "https://github.com/nyein2001/Splash-Wallpaper"
+    }
+  ]
+}
