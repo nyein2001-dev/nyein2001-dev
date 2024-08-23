@@ -23,7 +23,7 @@ const ExperienceCard = () => {
   };
 
   return (
-    <div className="rounded-xl bg-white p-7 dark:bg-night-800">
+    <div className="rounded-xl bg-white mb-5 p-7 dark:bg-night-800">
       <h2 className="mb-4 text-lg font-semibold dark:text-night-50">Experience</h2>
       {paginatedItems.map((item, index) => (
         <ExperienceCardItem
