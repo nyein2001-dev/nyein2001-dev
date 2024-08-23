@@ -30,7 +30,7 @@
     {
       "icon": "CakeIcon",
       "name": "23 Years old",
-      "value": "12 february 2001"
+      "value": "12 February 2001"
     },
     {
       "icon": "DevicePhoneMobileIcon",
@@ -98,7 +98,7 @@
     {
       "name": "Burmese",
       "code": "en-US",
-      "flag": "svg/brazil.svg",
+      "flag": "svg/myanmar.svg",
       "level": "Native Language"
     }
   ],
@@ -106,7 +106,7 @@
     {
       "job": "Mobile Developer",
       "company": "Myanmar Information Technology Pte Ltd",
-      "companyLogo": "img/company/co-chair.jpg",
+      "companyLogo": "img/company/mit.png",
       "location": "Yangon",
       "workType": "Fulltime",
       "start": "feb 2023",
@@ -116,7 +116,7 @@
     {
       "job": "Mobile Developer",
       "company": "Project Stores",
-      "companyLogo": "img/company/founder.jpg",
+      "companyLogo": "img/company/ps.jfif",
       "location": "Delhi, India",
       "workType": "Remote",
       "start": "dec 2023",
@@ -126,7 +126,7 @@
     {
       "job": "Data Entry",
       "company": "Blue Ocean Operating Management Co., Ltd.",
-      "companyLogo": "img/company/founder.jpg",
+      "companyLogo": "img/company/blueocean.jfif",
       "location": "Yangon",
       "workType": "Fulltime",
       "start": "oct 2022",
@@ -137,7 +137,7 @@
   "education": [
     {
       "college": "University of Computer Studies - Magway",
-      "collegeLogo": "img/college/harvard.jpg",
+      "collegeLogo": "img/college/ucsmgy.jpg",
       "course": "Computer Science and Technology",
       "start": "12/2017",
       "end": " 8/2020",
@@ -145,7 +145,7 @@
     },
     {
       "college": "Basic Education High School - Seikphyu",
-      "collegeLogo": "img/college/lakeside.jpg",
+      "collegeLogo": "img/college/behs.jfif",
       "course": "High School Matriculation",
       "start": "2006",
       "end": "2016",
@@ -156,7 +156,7 @@
     {
       "job": "Mobile Developer",
       "company": "Ani",
-      "companyLogo": "img/company/green-peace.jpg",
+      "companyLogo": "img/company/ani.jfif",
       "location": "Isekai, US",
       "workType": "Remote",
       "start": "march 2024",
@@ -168,7 +168,7 @@
     {
       "course": "Java Standard Edition, Spring Framework & Angular Framework",
       "school": "Java Developer Class - Yangon",
-      "schoolLogo": "img/college/coursera.jpg",
+      "schoolLogo": "img/college/jdc.png",
       "issueDate": "march 27 2023",
       "expirationDate": "No expiration date",
       "credentialCode": "",
@@ -177,7 +177,7 @@
     {
       "course": "Mobile Development Tools & Frameworks",
       "school": "Mobile ToolKit -Magway",
-      "schoolLogo": "img/college/coursera.jpg",
+      "schoolLogo": "img/college/mdf.jfif",
       "issueDate": "march 2019",
       "expirationDate": "No expiration date",
       "credentialCode": "",
@@ -186,7 +186,7 @@
     {
       "course": "Electronic Basics with Arduino",
       "school": "@SawMinTun",
-      "schoolLogo": "img/college/coursera.jpg",
+      "schoolLogo": "img/college/arduino.jfif",
       "issueDate": "oct 2020",
       "expirationDate": "No expiration date",
       "credentialCode": "",
@@ -198,7 +198,7 @@
       "name": "City Lens",
       "description": "City Lens App is a research tool that collects and analyzes geo-tracking data within cities to enhance traditional maps with cutting-edge technology. Utilizing deep learning, the app offers precise predictions for travel time, bus occupancy, speed, distance, and optimal routes, transforming conventional maps into modern, useful navigation tools.",
       "language": "Kotlin",
-      "image": "img/project/vscode.png",
+      "image": "img/project/citylens.jfif",
       "stars": "+138k",
       "forks": "23.8k",
       "url": "https://github.com/nyein2001-dev/CityLens"
@@ -207,7 +207,7 @@
       "name": "Art Stream",
       "description": "ArtStream is a web application that conveys the idea of a continuous flow of art and creativity, much like a newsfeed, and is short and memorable. This project utilizes Angular for front-end development and Firebase for user authentication.",
       "language": "Typescript",
-      "image": "img/project/typescript.png",
+      "image": "img/project/artstreams.png",
       "stars": "+85.3k",
       "forks": "11.1k",
       "url": "https://github.com/nyein2001-dev/ArtStream"
@@ -216,7 +216,7 @@
       "name": "Sky Snap",
       "description": "SkySnap is a simple and intuitive weather application built using Flutter. It provides current weather information for any given city using the OpenWeatherMap API. This app is designed with a clean and responsive UI that works seamlessly on both mobile and tablet devices.",
       "language": "Dart",
-      "image": "img/project/vscode.png",
+      "image": "img/project/skysnap.png",
       "stars": "+138k",
       "forks": "23.8k",
       "url": "https://github.com/nyein2001-dev/SkySnap"
@@ -225,7 +225,7 @@
       "name": "City Lens Backend",
       "description": "A Django and PostgreSQL-powered backend API for City Lens Web and Mobile, enabling dynamic geolocation data visualization from JSON files. Features efficient data handling for analyzing geographical patterns.",
       "language": "Python",
-      "image": "img/project/vscode.png",
+      "image": "img/project/citylens.jfif",
       "stars": "+138k",
       "forks": "23.8k",
       "url": "https://github.com/nyein2001-dev/city-lens-backend"
@@ -234,7 +234,7 @@
       "name": "Let Drive",
       "description": "LetDrive is a revolutionary mobile app designed to streamline the taxi driver experience by connecting them with customers seamlessly. With a dynamic and intuitive interface, LetDrive aims to enhance driver satisfaction and efficiency. Our Proof-Of-Concept (POC) version focuses on essential features to test our innovative ideas with drivers. Experience hassle-free authentication with Google account login, access a list of customer jobs retrieved from Firebase, view driver profiles with key information, and utilize geolocation and maps for efficient navigation. LetDrive is shaping the future of taxi services.",
       "language": "Java",
-      "image": "img/project/typescript.png",
+      "image": "img/project/android.webp",
       "stars": "+85.3k",
       "forks": "11.1k",
       "url": "https://github.com/nyein2001/LetDrive"
@@ -243,7 +243,7 @@
       "name": "Thuta Book Store",
       "description": "Thuta Book Store is a comprehensive Book Store Management System developed using Spring Boot. With an intuitive Admin panel, administrators can efficiently manage orders, and user accounts. Meanwhile, regular users can seamlessly search for books and add them to their carts for a convenient shopping experience.",
       "language": "Javascript",
-      "image": "img/project/vscode.png",
+      "image": "img/project/thuta.jfif",
       "stars": "+138k",
       "forks": "23.8k",
       "url": "https://github.com/nyein2001/Thuta-Book-Store"
@@ -252,7 +252,7 @@
       "name": "City Lens Web",
       "description": "A React and D3.js-powered frontend for City Lens Web, offering dynamic visualizations of geolocation data from JSON files. Designed for analyzing geographical patterns with an intuitive interface.",
       "language": "Javascript",
-      "image": "img/project/vscode.png",
+      "image": "img/project/citylens.jfif",
       "stars": "+138k",
       "forks": "23.8k",
       "url": "https://github.com/nyein2001-dev/city-lens-web-frontend"
@@ -261,7 +261,7 @@
       "name": "Flutter Custom Bottom Appbar",
       "description": "Custom-Bottom-App-Bar redefines the loading experience with its sleek design and user-friendly interface. This challenging two-hour project delivers optimized performance, customization options, and integrates valuable user feedback. Join a vibrant community pushing the boundaries of UI design.",
       "language": "Dart",
-      "image": "img/project/vscode.png",
+      "image": "img/project/flutter.png",
       "stars": "+138k",
       "forks": "23.8k",
       "url": "https://github.com/nyein2001/Custom-Bottom-App-Bar"
@@ -270,7 +270,7 @@
       "name": "CurrencyX : Real-time Exchange & History Tracker",
       "description": "CurrencyX is your go-to app for live currency exchange rates and historical data tracking. Get real-time updates on BTC's currency rates against USD, GBP, and EUR from our API, refreshed every minute. Dive into currency history with recorded rates and easily calculate exchanges between BTC, USD, GBP, and EUR using our intuitive interface.",
       "language": "Java",
-      "image": "img/project/typescript.png",
+      "image": "img/project/x.jfif",
       "stars": "+85.3k",
       "forks": "11.1k",
       "url": "https://github.com/nyein2001/Currency"
@@ -279,7 +279,7 @@
       "name": "V-Connect",
       "description": "V-Connect is a state-of-the-art app offering real-time display, social login, and manual registration for enhanced security. Users can effortlessly manage profiles, enjoy seamless payment processing with Google Pay, Apple Pay, and Stripe, and engage with interactive features like a spin wheel.",
       "language": "Dart",
-      "image": "img/project/vscode.png",
+      "image": "img/project/v.jfif",
       "stars": "+138k",
       "forks": "23.8k",
       "url": "https://github.com/nyein2001/V-Connect"
@@ -288,7 +288,7 @@
       "name": "Splash Wallpaper",
       "description": "Responsive Android Splash Wallpaper",
       "language": "Java",
-      "image": "img/project/typescript.png",
+      "image": "img/project/s.jfif",
       "stars": "+85.3k",
       "forks": "11.1k",
       "url": "https://github.com/nyein2001/Splash-Wallpaper"

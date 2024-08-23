@@ -1,12 +1,14 @@
 import React, { useState, useMemo } from "react";
 import ProjectCardItem from "./ProjectCardItem.tsx";
 import MyPaginate from "./MyPaginate";
+import { useTranslation } from "react-i18next";
 import { useResumeStore } from "../stores/ResumeContext"; // Adjust import based on your actual setup
 
 const itemsPerPage = 3;
 
 const ProjectList: React.FC = () => {
   const resumeStore = useResumeStore();
+  const { t } = useTranslation();
   const [currentPage, setCurrentPage] = useState<number>(1);
 
   const resume = resumeStore.resume; // Adjust according to how you access your store
@@ -27,7 +29,7 @@ const ProjectList: React.FC = () => {
 
   return (
     <div className="rounded-xl bg-white p-7 dark:bg-night-800">
-      <h2 className="mb-5 text-lg font-semibold dark:text-night-50">Project</h2>
+      <h2 className="mb-5 text-lg font-semibold dark:text-night-50">{t("project")}</h2>
       {/* Project Items */}
       {paginatedItems.map((item, index) => (
         <ProjectCardItem
