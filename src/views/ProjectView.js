@@ -1,12 +1,10 @@
 import React from "react";
-import ExperienceCard from "../components/ExperienceCard";
-import VolunteerCard from "../components/VolunteerCard";
+import ProjectCard from "../components/ProjectCard.tsx";
 
 const ProjectView = () => {
   return (
     <div>
-      <ExperienceCard />
-      <VolunteerCard />
+      <ProjectCard />
     </div>
   );
 };

@@ -1,45 +1,41 @@
 {
   "profile": {
-    "name": "Bill Gates",
-    "job": "Co-chair, Bill & Melinda Gates Foundation",
+    "name": "Nyein Chan Toe",
+    "job": "Mobile Developer",
     "avatar": "img/profile/me.jpg",
     "aboutMe": "Co-chair of the Bill & Melinda Gates Foundation. Founder of Breakthrough Energy. Co-founder of Microsoft. Voracious reader. Avid traveler. Active blogger.",
     "socialNetwork": [
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/billgates"
+        "name": "github",
+        "url": "https://github.com/nyein2001-dev"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/williamhgates"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/thisisbillgates/"
+        "url": "https://www.linkedin.com/in/nyein-chan-toe/"
       }
     ]
   },
   "cv": {
     "icon": "DocumentTextIcon",
     "name": "PDF & DOC",
-    "value": "Bill Gates",
+    "value": "Nyein Chan Toe",
     "url": "https://dl.lanno.dev/share/GppwRUSq0tOPCjWy/files/703b5c3a-ff83-4ce9-8607-fc86d0ac09eb"
   },
   "information": [
     {
       "icon": "EnvelopeIcon",
       "name": "Mail address",
-      "value": "billgates@microsoft.com"
+      "value": "nyeinchantoe0@gmail.com"
     },
     {
       "icon": "CakeIcon",
-      "name": "66 Years old",
-      "value": "28 october 1955"
+      "name": "23 Years old",
+      "value": "12 february 2001"
     },
     {
       "icon": "DevicePhoneMobileIcon",
       "name": "Phone Number",
-      "value": "+1 (800) 642 7676"
+      "value": "+66 (061) 767 8798"
     },
     {
       "icon": "ComputerDesktopIcon",

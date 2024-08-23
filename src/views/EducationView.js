@@ -1,5 +1,5 @@
 import React from "react";
-import EducationCard from "../components/EducationCard.tsx";
+import EducationCard from "../components/EducationCard";
 import CertificateCard from "../components/CertificateCard.tsx";
 
 const EducationView = () => {
