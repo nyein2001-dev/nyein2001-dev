@@ -136,32 +136,32 @@
   ],
   "education": [
     {
-      "college": "Harvard University",
+      "college": "University of Computer Studies - Magway",
       "collegeLogo": "img/college/harvard.jpg",
-      "course": "Mathematics, law and computer science",
-      "start": "1973",
-      "end": "1975",
+      "course": "Computer Science and Technology",
+      "start": "12/2017",
+      "end": " 8/2020",
       "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
     },
     {
-      "college": "Lakeside School",
+      "college": "Basic Education High School - Seikphyu",
       "collegeLogo": "img/college/lakeside.jpg",
-      "course": "Technologist in Computer Networks, Network Management and Systems Security",
-      "start": "1963",
-      "end": "1973",
+      "course": "High School Matriculation",
+      "start": "2006",
+      "end": "2016",
       "url": ""
     }
   ],
   "volunteer": [
     {
-      "job": "Team Coordinator",
-      "company": "Green Peace",
+      "job": "Mobile Developer",
+      "company": "Ani",
       "companyLogo": "img/company/green-peace.jpg",
-      "location": "New York",
+      "location": "Isekai, US",
       "workType": "Remote",
-      "start": "January 2000",
-      "end": "Current",
-      "description": "Greenpeace is an independent global campaigning network that acts to change attitudes and behaviour, to protect and conserve the environment and to promote peace. It comprises 26 independent national/regional Greenpeace organisations with presence in over 55 countries across Europe, Africa, the Americas, Asia and the Pacific, as well as a coordinating and supporting organisation, Greenpeace International."
+      "start": "march 2024",
+      "end": "april 2024",
+      "description": "In my role at the company, I've been instrumental in reinventing social media for niche communities. By leveraging my skills in UI/UX design, API integration, and database management, I've contributed to creating a platform that caters specifically to the interests of anime, manga, and gaming enthusiasts. Through intuitive design and seamless integration of features like news updates and community engagement tools, we've provided a space where users can connect, discover, and stay informed about their passions. My commitment to user-centric design and continuous improvement has been key to ensuring the platform's success in serving the needs of our niche community."
     }
   ],
   "certificate": [
