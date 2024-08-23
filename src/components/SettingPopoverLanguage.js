@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import { useTranslation } from "react-i18next";
-import { getImagePath } from "../helpers/Helper";
-import { useResumeStore } from "../stores/ResumeContext";
+import { getImagePath } from "../helpers/Helper"; 
+import { useResumeStore } from "../stores/ResumeContext"; 
 import i18n from "../i18n";
 
 const languages = [
-  { name: "settings.en", code: "en-US", flag: "svg/united-states.svg" },
   { name: "settings.pt", code: "pt-MM", flag: "svg/myanmar.svg" },
+  { name: "settings.en", code: "en-US", flag: "svg/united-states.svg" },
 ];
 
 const SettingPopoverLanguage = () => {
@@ -63,10 +63,7 @@ const SettingPopoverLanguage = () => {
                 key={language.code}
                 value={language}
                 className={({ active }) =>
-                  `${
-                    active
-                      ? "bg-primary-500/20 text-primary-500 dark:text-primary-500"
-                      : "text-gray-900 dark:text-night-200"
+                  `${active ? "bg-primary-500/20 text-primary-500 dark:text-primary-500" : "text-gray-900 dark:text-night-200"
                   } relative cursor-default select-none py-2 px-2.5 flex items-center gap-2`
                 }
               >

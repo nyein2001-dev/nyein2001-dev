@@ -5,7 +5,7 @@ import { ChevronLeftIcon, ChevronRightIcon, ChevronDoubleLeftIcon, ChevronDouble
 
 const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const { t } = useTranslation();
+  const { t } = useTranslation(); 
   const lastPageCount = useMemo(() => Math.ceil(totalItems / itemsPerPage), [totalItems, itemsPerPage]);
 
   const visibleButtons = useMemo(() => Math.min(maxVisibleButtons, lastPageCount), [maxVisibleButtons, lastPageCount]);
