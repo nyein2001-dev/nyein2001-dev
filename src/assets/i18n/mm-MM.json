@@ -1,33 +1,33 @@
 {
-  "resume": "Resume",
-  "information": "Informations",
-  "skills": "Skills",
-  "language": "Language",
-  "about": "About me",
-  "experience": "Experience",
-  "volunteer": "Volunteer",
-  "education": "Education",
-  "license": "Licenses and Certificates",
-  "project": "Projects",
-  "credential": "Credential",
-  "credential_code": "Credential Code",
+  "resume": "မှတ်တမ်း",
+  "information": "အချက်အလက်များ",
+  "skills": "ကျွမ်းကျင်မှုများ",
+  "language": "ဘာသာစကား",
+  "about": "ကျွန်ုပ်အကြောင်း",
+  "experience": "အတွေ့အကြုံ",
+  "volunteer": "ကိုယ်ပိုင်စေတနာအလုပ်",
+  "education": "ပညာရေး",
+  "license": "လိုင်စင်နှင့် လက်မှတ်များ",
+  "project": "ပရောဂျက်များ",
+  "credential": "အရည်အချင်း",
+  "credential_code": "အရည်အချင်း ကုဒ်",
   "settings": {
-    "title": "Settings",
-    "theme": "Theme",
-    "dark_mode": "Enable dark mode?",
-    "pt": "Potuguese",
-    "en": "English"
+    "title": "ဆက်တင်များ",
+    "theme": "အပြင်အဆင်",
+    "dark_mode": "မှောင်မိုက်မှုကို ဖွင့်ပါမည်လား?",
+    "pt": "မြန်မာ",
+    "en": "အင်္ဂလိပ်"
   },
   "menu": {
-    "experience": "Experience",
-    "education": "Education",
-    "project": "Projects"
+    "experience": "အတွေ့အကြုံ",
+    "education": "ပညာရေး",
+    "project": "ပရောဂျက်များ"
   },
   "paginate": {
-    "count": "Showing {first} to {last} of {total} results",
-    "previous_page": "Previous page",
-    "next_page": "Next page",
-    "first_page": "First page",
-    "last_page": "last page"
+    "count": "{total} ရလဒ်များထဲမှ {first} မှ {last} အထိ ပြသနေသည်",
+    "previous_page": "မူလစာမျက်နှာ",
+    "next_page": "နောက်စာမျက်နှာ",
+    "first_page": "ပထမစာမျက်နှာ",
+    "last_page": "နောက်ဆုံးစာမျက်နှာ"
   }
 }

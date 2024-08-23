@@ -1,9 +1,9 @@
 {
   "profile": {
-    "name": "Nyein Chan Toe",
-    "job": "Mobile Developer",
+    "name": "ငြိမ်းချမ်းတိုး",
+    "job": "မိုဘိုင်း ဖွံ့ဖြိုးရေးဆရာ",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "Seasoned mobile developer with a strong passion for innovation, specializing in both iOS and Android platforms. Expertise includes crafting user-centric apps with seamless functionality, spanning native and cross-platform development, backend integration, and emerging tech adoption, all aimed at elevating user experiences.",
+    "aboutMe": "iOS နှင့် Android ပလက်ဖောင်းများတွင် အထူးကျွမ်းကျင်ပြီး၊ အသုံးပြုသူကို ဦးစားပေးသော အက်ပ်များကို ဖန်တီးခြင်း၊ မူလရင်းနှင့် အထူးပလက်ဖောင်း ဖွံ့ဖြိုးတိုးတက်မှု၊ နောက်ခံပေါင်းစပ်ခြင်းနှင့် နောက်ဆုံးပေါ်နည်းပညာများကို ကိုင်တွယ်နိုင်သော အတွေ့အကြုံရှိသော မိုဘိုင်း ဖွံ့ဖြိုးရေးဆရာ။ အသုံးပြုသူအတွေ့အကြုံများကို မြှင့်တင်ရန် ရည်ရွယ်ထားသည်။",
     "socialNetwork": [
       {
         "name": "github",
@@ -18,33 +18,33 @@
   "cv": {
     "icon": "DocumentTextIcon",
     "name": "PDF",
-    "value": "Nyein Chan Toe",
+    "value": "ငြိမ်းချမ်းတိုး",
     "url": "https://drive.google.com/file/d/1_S4dHlI8ydUUqSfH-hVzyIruqGGoxNx3/view?pli=1"
   },
   "information": [
     {
       "icon": "EnvelopeIcon",
-      "name": "Mail address",
+      "name": "အီးမေးလ် လိပ်စာ",
       "value": "nyeinchantoe0@gmail.com"
     },
     {
       "icon": "CakeIcon",
-      "name": "23 Years old",
-      "value": "12 February 2001"
+      "name": "အသက် 23 နှစ်",
+      "value": "12 ဖေဖော်ဝါရီ 2001"
     },
     {
       "icon": "DevicePhoneMobileIcon",
-      "name": "Phone Number",
+      "name": "ဖုန်းနံပါတ်",
       "value": "+66 (061) 767 8798"
     },
     {
       "icon": "MapPinIcon",
-      "name": "Address",
-      "value": "Bangkok, Thailand"
+      "name": "လိပ်စာ",
+      "value": "ဘန်ကောက်၊ ထိုင်းနိုင်ငံ"
     },
     {
       "icon": "ComputerDesktopIcon",
-      "name": "Work type",
+      "name": "အလုပ် အမျိုးအစား",
       "value": "Remote or Fulltime"
     }
   ],
@@ -63,8 +63,8 @@
     "Android Jetpack",
     "Docker",
     "CI/CD",
-    "APIs Integration",
-    "Mobile UI/UX Design",
+    "API ပေါင်းစပ်ခြင်း",
+    "မိုဘိုင်း UI/UX ဒီဇိုင်း",
     "GraphQL",
     "Firebase",
     "Redux",
@@ -78,11 +78,11 @@
     "Microsoft SQL",
     "RESTful APIs",
     "Git",
-    "Performance Optimization",
-    "Unit Testing",
-    "Integration Testing",
+    "စွမ်းဆောင်ရည် မြှင့်တင်ခြင်း",
+    "ယူနစ်စမ်းသပ်ခြင်း",
+    "ပေါင်းစပ်စမ်းသပ်ခြင်း",
     "Flutter BLoC",
-    "Mobile App Security",
+    "မိုဘိုင်း အက်ပ် လုံခြုံရေး",
     "WebSockets",
     "Agile Methodologies",
     "Android Studio",
@@ -90,63 +90,63 @@
   ],
   "language": [
     {
-      "name": "English",
-      "code": "pt-BR",
+      "name": "အင်္ဂလိပ်",
+      "code": "en-US",
       "flag": "svg/united-states.svg",
-      "level": "Intermediate"
+      "level": "အလယ်အလတ်"
     },
     {
-      "name": "Burmese",
-      "code": "en-US",
+      "name": "မြန်မာ",
+      "code": "my-MM",
       "flag": "svg/myanmar.svg",
-      "level": "Native Language"
+      "level": "မိခင်ဘာသာစကား"
     }
   ],
   "experience": [
     {
-      "job": "Mobile Developer",
+      "job": "မိုဘိုင်း ဖွံ့ဖြိုးရေးဆရာ",
       "company": "Myanmar Information Technology Pte Ltd",
       "companyLogo": "img/company/mit.png",
-      "location": "Yangon",
-      "workType": "Fulltime",
-      "start": "feb 2023",
-      "end": "may 2024",
-      "description": "During my tenure at MIT, I've had the privilege of contributing my skills to drive digital innovation and business transformation. In an ever-evolving landscape where technology and market dynamics shift rapidly, I've been instrumental in leveraging my expertise in UI/UX design, email integration, text summarization, and accessibility standards adherence to engineer robust solutions. Collaborating with cross-functional teams, I've integrated APIs, location-based services for real-time tracking and navigation and implemented cutting-edge functionalities such as text-to-speech and voice commands, enhancing user experience and accessibility. My proficiency in version control systems like Git has ensured efficient collaboration and code management, while my adeptness in database management and security measures has safeguarded sensitive information and ensured data integrity."
+      "location": "ရန်ကုန်",
+      "workType": "အပြည့်အဝ",
+      "start": "ဖေဖော်ဝါရီ 2023",
+      "end": "မေ 2024",
+      "description": "MIT တွင် သက်တမ်းတစ်ခုအတွင်း ကျွန်ုပ်၏ ကျွမ်းကျင်မှုများကို အသုံးပြုကာ ဒစ်ဂျစ်တယ်တီထွင်မှုနှင့် လုပ်ငန်းပြောင်းလဲမှုများကို အကောင်အထည်ဖော်နိုင်ခဲ့သည်။ နည်းပညာနှင့် စျေးကွက်မဟာဗျူဟာများ ပြောင်းလဲသည့် ကမ္ဘာလှည့်လည်မှုတွင်၊ ကျွန်ုပ်သည် UI/UX ဒီဇိုင်း၊ အီးမေးလ်ပေါင်းစပ်ခြင်း၊ စာသားချုံးဖတ်ခြင်း၊ လက်ခံနိုင်သော စံနှုန်းများကို အသုံးပြု၍ ခိုင်ခံ့သော ဖြေရှင်းချက်များကို ထုတ်လုပ်နိုင်စေရန် ကျွမ်းကျင်မှုများကို အပြည့်အဝအသုံးပြုခဲ့သည်။ ဖွံ့ဖြိုးရေးအဖွဲ့များနှင့် ပူးပေါင်း၍ APIs ကို ပေါင်းစပ်ခြင်း၊ အချိန်နှင့် တည်နေရာကို အချိန်နှင့်တပြေးညီ ခြေရာခံခြင်း၊ လမ်းညွှန်ခြင်း၊ စနစ်သစ်များကို စွမ်းဆောင်ခဲ့ပြီး အသုံးပြုသူ အတွေ့အကြုံနှင့် လက်ခံနိုင်သော စံနှုန်းများကို တိုးတက်စေခဲ့သည်။ Git ကဲ့သို့သော ဗားရှင်းထိန်းချုပ်မှုစနစ်များတွင် ကျွမ်းကျင်မှုများက ပြောင်းလဲမှုနှင့် ကုဒ်စီမံခန့်ခွဲမှုကို ထိထိရောက်ရောက် လုပ်ဆောင်စေခဲ့ပြီး ဒေတာဘေ့စ ထိန်းသိမ်းမှုနှင့် လုံခြုံရေး စနစ်များကို ပိုမိုကောင်းမွန်စေရန် ရည်ရွယ်ခဲ့သည်။"
     },
     {
-      "job": "Mobile Developer",
+      "job": "မိုဘိုင်း ဖွံ့ဖြိုးရေးဆရာ",
       "company": "Project Stores",
       "companyLogo": "img/company/ps.jfif",
-      "location": "Delhi, India",
+      "location": "ဒယ်လီ၊ အိန္ဒိယ",
       "workType": "Remote",
-      "start": "dec 2023",
-      "end": "feb 2024",
-      "description": "At Project Stores, I've led the creation of Mobile Application, a top-tier app designed to provide users with a seamless and secure online experience. Leveraging my skills in UI/UX design, API integration, and security measures, I've developed a platform that offers real-time display, secure authentication, and hassle-free payment options. Users can effortlessly manage profiles, maintain anonymity online, and enjoy uninterrupted browsing with just a tap. My focus on user privacy and commitment to excellence has positioned as a trusted solution for those seeking enhanced online security and privacy."
+      "start": "ဒီဇင်ဘာ 2023",
+      "end": "ဖေဖော်ဝါရီ 2024",
+      "description": "Project Stores တွင် ကျွန်ုပ်သည် အသုံးပြုသူများကို လွယ်ကူပြီး လုံခြုံသော အွန်လိုင်း အတွေ့အကြုံများကို ပေးစွမ်းသော အဆင့်မြင့်အက်ပ်ကို ဖန်တီးခြင်းတွင် ဦးဆောင်ခဲ့သည်။ ကျွန်ုပ်၏ ကျွမ်းကျင်မှုများကို အသုံးပြု၍ UI/UX ဒီဇိုင်း၊ API ပေါင်းစပ်ခြင်းနှင့် လုံခြုံရေး စနစ်များဖြင့် တည်ဆောက်ထားသော ပလက်ဖောင်းတစ်ခုဖြစ်သည်။ အသုံးပြုသူများသည် ပရိုဖိုင်းများကို လွယ်ကူစွာ စီမံခန့်ခွဲနိုင်ပြီး အွန်လိုင်းတွင် ကိုယ်ပိုင်အမည်အရောက်ကို ထိန်းသိမ်းနိုင်သည့် အတွေ့အကြုံကို ရယူနိုင်သည်။"
     },
     {
-      "job": "Data Entry",
+      "job": "ဒေတာ အင်ပတ်ချက်တင်သူ",
       "company": "Blue Ocean Operating Management Co., Ltd.",
       "companyLogo": "img/company/blueocean.jfif",
-      "location": "Yangon",
-      "workType": "Fulltime",
-      "start": "oct 2022",
-      "end": "mar 2023",
-      "description": "As a Data Entry Associate at Blue Ocean Operating Management Co., Ltd., I was responsible for accurately inputting, updating, and maintaining data within the company’s database systems, ensuring data quality and integrity through regular checks and corrections. I managed and organized records, prepared reports, and supported system updates while troubleshooting data entry issues. My role involved collaborating with various departments to gather and verify information, maintaining confidentiality of sensitive data, and contributing to process improvements for enhanced efficiency. Additionally, I provided general administrative support, including filing and scanning documents, and assisted with other office duties as needed."
+      "location": "ရန်ကုန်",
+      "workType": "အပြည့်အဝ",
+      "start": "အောက်တိုဘာ 2022",
+      "end": "မတ် 2023",
+      "description": "Blue Ocean Operating Management Co., Ltd. တွင် ဒေတာ အင်ပတ်ချက်တင်သူအဖြစ် တာဝန်ထမ်းဆောင်စဉ် အစဉ်အတိုင်း ကုမ္ပဏီ၏ ဒေတာဘေ့စစနစ်များတွင် ဒေတာများကို မှန်ကန်စွာ ထည့်သွင်း၊ update လုပ်ခြင်းနှင့် ထိန်းသိမ်းခြင်းတွင် တာဝန်ယူခဲ့ပြီး၊ ဒေတာအရည်အသွေးနှင့် တည်ငြိမ်မှုကို စစ်ဆေးခြင်းနှင့် ပြုပြင်ခြင်းများကို အပြည့်အဝဆောင်ရွက်ခဲ့ပါသည်။ အစိုးရလုပ်ငန်းများနှင့် ကော်ပိုရိတ်လုပ်ငန်းများအား အကူအညီပေးရန် တာဝန်ယူခြင်း၊ တိကျမှုနှင့် မြန်ဆန်သော အချက်အလက်လုပ်ငန်းစဉ်များကို အကောင်အထည်ဖော်ခဲ့ပြီး၊ အသုံးပြုသူ စိတ်ကျေနပ်မှုနှင့် စွမ်းဆောင်ရည်ကို မြှင့်တင်ပေးခဲ့ပါသည်။"
     }
   ],
   "education": [
     {
-      "college": "University of Computer Studies - Magway",
+      "college": "ကွန်ပျူတာတက္ကသိုလ် - မကွေး",
       "collegeLogo": "img/college/ucsmgy.jpg",
-      "course": "Computer Science and Technology",
+      "course": "ကွန်ပျူတာ သိပ္ပံနှင့် နည်းပညာ",
       "start": "12/2017",
       "end": " 8/2020",
       "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
     },
     {
-      "college": "Basic Education High School - Seikphyu",
+      "college": "အခြေခံ ပညာ အထက်တန်း ကျောင်း - စိပ်ဖြူ",
       "collegeLogo": "img/college/behs.jfif",
-      "course": "High School Matriculation",
+      "course": "အထက်တန်း ရှေးရွေးစာမေးပွဲ",
       "start": "2006",
       "end": "2016",
       "url": ""
@@ -154,41 +154,41 @@
   ],
   "volunteer": [
     {
-      "job": "Mobile Developer",
+      "job": "မိုဘိုင်း ဖွံ့ဖြိုးရေးသူ",
       "company": "Ani",
       "companyLogo": "img/company/ani.jfif",
-      "location": "Isekai, US",
+      "location": "Isekai, အမေရိကန်ပြည်ထောင်စု",
       "workType": "Remote",
-      "start": "march 2024",
-      "end": "april 2024",
-      "description": "In my role at the company, I've been instrumental in reinventing social media for niche communities. By leveraging my skills in UI/UX design, API integration, and database management, I've contributed to creating a platform that caters specifically to the interests of anime, manga, and gaming enthusiasts. Through intuitive design and seamless integration of features like news updates and community engagement tools, we've provided a space where users can connect, discover, and stay informed about their passions. My commitment to user-centric design and continuous improvement has been key to ensuring the platform's success in serving the needs of our niche community."
+      "start": "မတ် 2024",
+      "end": "ဧပြီ 2024",
+      "description": "ကျွန်ုပ်၏အခန်းကဏ္ဍတွင် လူမှုကွန်ယက်များအား နောက်ဆုံးပေါ် အချက်အလက်များဖြင့် ပြန်လည်တီထွင်ပြီး နိုင်ငံရေး၊ သုတေသနနှင့် နည်းပညာပိုင်းတွင် အရေးပါတော့ခဲ့သည်။ API ပေါင်းစပ်မှုနှင့် ဒေတာဘေ့စ် စီမံခန့်ခွဲမှုများ အထောက်အပံ့ဖြင့်၊ အားကစားရိပ်သာများနှင့် ဂီတဖန်တီးမှု အပေါ်တွင် သီးသန့်ပစ်ခတ်ချက်များကို ဖြည့်ဆည်းကာ အသုံးပြုသူများအတွက် ဝင်ရောက်ဆွေးနွေးရာ၊ ရှာဖွေရာနှင့် ၎င်းတို့၏ စိတ်ပါဝင်စားမှုများအပေါ် လိုက်လျောညီထွေဖြစ်အောင် ဖန်တီးပေးနိုင်ခဲ့သည်။ အသုံးပြုသူအလေးထားမှုနှင့် တိုးတက်ပြုပြင်မှုများသည် ကျွန်ုပ်၏ အဓိကကဏ္ဍဖြစ်ပြီး ၎င်းတို့၏လိုအပ်ချက်များကို ဖြည့်ဆည်းပေးရန်အတွက် အဓိက အခန်းကဏ္ဍကောင်းမွန်စွာ ဆောင်ရွက်ခဲ့သည်။"
     }
   ],
   "certificate": [
     {
       "course": "Java Standard Edition, Spring Framework & Angular Framework",
-      "school": "Java Developer Class - Yangon",
+      "school": "Java Developer Class - ရန်ကုန်",
       "schoolLogo": "img/college/jdc.png",
-      "issueDate": "march 27 2023",
-      "expirationDate": "No expiration date",
+      "issueDate": "မတ် 27 2023",
+      "expirationDate": "သက်တမ်းကုန်ဆုံးမည့်ရက် မရှိပါ",
       "credentialCode": "",
       "url": "https://docs.google.com/document/d/1RQTaLzh44dVQn44hEFdzbQlMn6CePTm54MtcLS_BSIE/edit?usp=sharing"
     },
     {
-      "course": "Mobile Development Tools & Frameworks",
-      "school": "Mobile ToolKit -Magway",
+      "course": "မိုဘိုင်း ဖွံ့ဖြိုးရေး ကိရိယာများနှင့် နည်းပညာများ",
+      "school": "မိုဘိုင်း ToolKit - မကွေး",
       "schoolLogo": "img/college/mdf.jfif",
-      "issueDate": "march 2019",
-      "expirationDate": "No expiration date",
+      "issueDate": "မတ် 2019",
+      "expirationDate": "သက်တမ်းကုန်ဆုံးမည့်ရက် မရှိပါ",
       "credentialCode": "",
       "url": ""
     },
     {
-      "course": "Electronic Basics with Arduino",
-      "school": "@SawMinTun",
+      "course": "Arduino ဖြင့် အီလက်ထရွန်းနစ် အခြေခံများ",
+      "school": "@စောမင်းထွန်း",
       "schoolLogo": "img/college/arduino.jfif",
-      "issueDate": "oct 2020",
-      "expirationDate": "No expiration date",
+      "issueDate": "အောက်တိုဘာ 2020",
+      "expirationDate": "သက်တမ်းကုန်ဆုံးမည့်ရက် မရှိပါ",
       "credentialCode": "",
       "url": ""
     }
@@ -196,7 +196,7 @@
   "project": [
     {
       "name": "City Lens",
-      "description": "City Lens App is a research tool that collects and analyzes geo-tracking data within cities to enhance traditional maps with cutting-edge technology. Utilizing deep learning, the app offers precise predictions for travel time, bus occupancy, speed, distance, and optimal routes, transforming conventional maps into modern, useful navigation tools.",
+      "description": "City Lens App သည် မြို့တွင်း အချက်အလက်များကို စုဆောင်းပြီး ခေတ်မီနည်းပညာများဖြင့် ပုံမှန် မြေပုံများကို မြှင့်တင်ပေးသည့် သုတေသန ကိရိယာတစ်ခုဖြစ်သည်။ အပတ်ပေါင်းများစွာ ခန့်မှန်းချက်တစ်ခုကို ပေးစွမ်းပြီး မြေညီကိုင်းသုံးအချက်အလက်များဖြင့် ရှေးခါက၏ သွားလာမှု၊ ကားသွားလမ်းကြောင်းများ၊ အမြန်နှုန်း၊ အကွာအဝေး၊ နောက်ဆုံးရောက်ရှိမည့် နေရာများကို ခန့်မှန်းချက်ပေးသည်။",
       "language": "Kotlin",
       "image": "img/project/citylens.jfif",
       "stars": "+138k",
@@ -205,7 +205,7 @@
     },
     {
       "name": "Art Stream",
-      "description": "ArtStream is a web application that conveys the idea of a continuous flow of art and creativity, much like a newsfeed, and is short and memorable. This project utilizes Angular for front-end development and Firebase for user authentication.",
+      "description": "ArtStream သည် အနုပညာဖန်တီးမှုများကို အစဉ်မပြတ် ဖော်ပြသည့် ဝဘ်အက်ပလီကေးရှင်းတစ်ခုဖြစ်ပြီး Angular ကို အသုံးပြု၍ Front-end ဖွံ့ဖြိုးရေးကို ပြုလုပ်ထားပြီး Firebase ကို အသုံးပြု၍ အသုံးပြုသူ သက်သေပြုခြင်းကို ပြုလုပ်သည်။",
       "language": "Typescript",
       "image": "img/project/artstreams.png",
       "stars": "+85.3k",
@@ -214,7 +214,7 @@
     },
     {
       "name": "Sky Snap",
-      "description": "SkySnap is a simple and intuitive weather application built using Flutter. It provides current weather information for any given city using the OpenWeatherMap API. This app is designed with a clean and responsive UI that works seamlessly on both mobile and tablet devices.",
+      "description": "SkySnap သည် Flutter ဖြင့် တည်ဆောက်ထားသော ရိုးရှင်းပြီး အသုံးပြုရလွယ်ကူသော မိုးလေဝသအက်ပလီကေးရှင်းတစ်ခုဖြစ်သည်။ ဤအက်ပလီကေးရှင်းသည် OpenWeatherMap API ကို အသုံးပြု၍ အချိန်နှင့်တပြေးညီ မိုးလေဝသအချက်အလက်များကို ပေးစွမ်းသည်။",
       "language": "Dart",
       "image": "img/project/skysnap.png",
       "stars": "+138k",
@@ -223,7 +223,7 @@
     },
     {
       "name": "City Lens Backend",
-      "description": "A Django and PostgreSQL-powered backend API for City Lens Web and Mobile, enabling dynamic geolocation data visualization from JSON files. Features efficient data handling for analyzing geographical patterns.",
+      "description": "City Lens Web နှင့် မိုဘိုင်းအက်ပလီကေးရှင်းများအတွက် Django နှင့် PostgreSQL အပေါ်အခြေခံထားသော Backend API ဖြစ်ပြီး မြေပုံအချက်အလက်များကို အကျိုးသက်ရောက်မှုရှိစွာ ကိုင်တွယ်ပေးသည်။",
       "language": "Python",
       "image": "img/project/citylens.jfif",
       "stars": "+138k",
@@ -232,7 +232,7 @@
     },
     {
       "name": "Let Drive",
-      "description": "LetDrive is a revolutionary mobile app designed to streamline the taxi driver experience by connecting them with customers seamlessly. With a dynamic and intuitive interface, LetDrive aims to enhance driver satisfaction and efficiency. Our Proof-Of-Concept (POC) version focuses on essential features to test our innovative ideas with drivers. Experience hassle-free authentication with Google account login, access a list of customer jobs retrieved from Firebase, view driver profiles with key information, and utilize geolocation and maps for efficient navigation. LetDrive is shaping the future of taxi services.",
+      "description": "LetDrive သည် တက်ဆီယာအား စိတ်ချရသော ဝန်ဆောင်မှုကို ဖန်တီးပေးရန် ရည်ရွယ်ထားသည့် အက်ပလီကေးရှင်းဖြစ်ပြီး Proof-Of-Concept (POC) ကို အင်္ဂါရပ်များနှင့်အတူ စမ်းသပ်ရန် အဓိကထားသည်။ Google account ဖြင့် ဝင်ရောက်စိစစ်ခြင်း၊ Firebase မှ အလုပ်စာရင်းများကို ရယူခြင်း၊ နေရာရှာဖွေမှုများအတွက် Geolocation နှင့် မြေပုံများကို အသုံးပြုခြင်းကို လုပ်ဆောင်နိုင်သည်။",
       "language": "Java",
       "image": "img/project/android.webp",
       "stars": "+85.3k",
@@ -241,7 +241,7 @@
     },
     {
       "name": "Thuta Book Store",
-      "description": "Thuta Book Store is a comprehensive Book Store Management System developed using Spring Boot. With an intuitive Admin panel, administrators can efficiently manage orders, and user accounts. Meanwhile, regular users can seamlessly search for books and add them to their carts for a convenient shopping experience.",
+      "description": "Thuta Book Store သည် Spring Boot ဖြင့် ဖွံ့ဖြိုးထားသော စာအုပ်ရောင်းချပွဲ စီမံခန့်ခွဲမှုစနစ်ဖြစ်ပြီး အချက်အလက်သုံးသပ်ခြင်းကို လွယ်ကူစွာပြုလုပ်နိုင်ရန် ဂနောက်သော ပြင်ဆင်ချက်များစွာ ပါဝင်သည်။",
       "language": "Javascript",
       "image": "img/project/thuta.jfif",
       "stars": "+138k",
@@ -250,7 +250,7 @@
     },
     {
       "name": "City Lens Web",
-      "description": "A React and D3.js-powered frontend for City Lens Web, offering dynamic visualizations of geolocation data from JSON files. Designed for analyzing geographical patterns with an intuitive interface.",
+      "description": "City Lens Web အတွက် React နှင့် D3.js ဖြင့် တည်ဆောက်ထားသော Frontend ဖြစ်ပြီး, JSON ဖိုင်များမှ Geolocation အချက်အလက်များကို ဒိုင်နမစ် Visualizations ပုံဖော်ပြသည်။ အဆင်ပြေသော Interface ဖြင့် တည်ဆောက်ထားပြီး မြေဧရိယာ ပုံစံများကို ရှာဖွေသုံးသပ်နိုင်ရန် အထူးသင့်လျော်သည်။",
       "language": "Javascript",
       "image": "img/project/citylens.jfif",
       "stars": "+138k",
@@ -259,7 +259,7 @@
     },
     {
       "name": "Flutter Custom Bottom Appbar",
-      "description": "Custom-Bottom-App-Bar redefines the loading experience with its sleek design and user-friendly interface. This challenging two-hour project delivers optimized performance, customization options, and integrates valuable user feedback. Join a vibrant community pushing the boundaries of UI design.",
+      "description": "Custom-Bottom-App-Bar သည် လုပ်ငန်းပေးမှု အတတ်နိုင်ဆုံး ဖြင့် Loading ပုံစံကို ပြောင်းလဲပေးသည်။ ၂ နာရီအတွင်း စိန်ခေါ်မှုများကို ဖြေရှင်းပြီး အကျိုးသက်ရောက်မှု၊ ပြုပြင်ခြင်းနှင့် အသုံးပြုသူများမှ တင်ပြချက်များကို ပေါင်းစပ်ထားသည်။ UI ဒီဇိုင်း နယ်ပယ်တွင် ကျော်လွှားသော အသိုင်းအဝိုင်းနှင့် ပူးပေါင်းပါဝင်ပါ။",
       "language": "Dart",
       "image": "img/project/flutter.png",
       "stars": "+138k",
@@ -268,7 +268,7 @@
     },
     {
       "name": "CurrencyX : Real-time Exchange & History Tracker",
-      "description": "CurrencyX is your go-to app for live currency exchange rates and historical data tracking. Get real-time updates on BTC's currency rates against USD, GBP, and EUR from our API, refreshed every minute. Dive into currency history with recorded rates and easily calculate exchanges between BTC, USD, GBP, and EUR using our intuitive interface.",
+      "description": "CurrencyX သည် နေ့စဉ် အသုံးပြုရလွယ်ကူသော အက်ပလီကေးရှင်းဖြစ်ပြီး ငွေကြေးများ၏ လက်ရှိ ဈေးနှုန်းများနှင့် အတိတ်မှတ်တမ်းများကို သိရှိနိုင်သည်။ BTC နှင့် USD, GBP, EUR အားလုံး၏ ဈေးနှုန်းများကို API မှာ နေ့စဉ် ၁ မိနစ်တစ်ကြိမ် အဖြစ် တိုးမြှင့်ပေးသည်။ BTC, USD, GBP, EUR တို့အကြား ငွေကျပ်နှုန်းများကို အလွယ်တကူ တွက်ချက်နိုင်သည်။",
       "language": "Java",
       "image": "img/project/x.jfif",
       "stars": "+85.3k",
@@ -277,7 +277,7 @@
     },
     {
       "name": "V-Connect",
-      "description": "V-Connect is a state-of-the-art app offering real-time display, social login, and manual registration for enhanced security. Users can effortlessly manage profiles, enjoy seamless payment processing with Google Pay, Apple Pay, and Stripe, and engage with interactive features like a spin wheel.",
+      "description": "V-Connect သည် အချိန်နှင့်တပြေးညီ ပြသပေးနိုင်သည့် အက်ပလီကေးရှင်းတစ်ခုဖြစ်ပြီး, အဖွင့်ဝင်ရန် လက်မှတ်တက်ထားခြင်းနှင့် လက်မှတ် မတက်ထားခြင်းအတွက် လုံခြုံမှုကို တိုးတက်စေသည်။ အသုံးပြုသူများသည် ပရိုဖိုင်များကို အလွယ်တကူ စီမံခန့်ခွဲနိုင်ပြီး, Google Pay, Apple Pay, Stripe များဖြင့် ငွေပေးချေမှုများကို လွယ်ကူစွာ ပြုလုပ်နိုင်သည်။",
       "language": "Dart",
       "image": "img/project/v.jfif",
       "stars": "+138k",
