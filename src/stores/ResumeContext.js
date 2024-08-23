@@ -5,8 +5,8 @@ import enUS from "../assets/json/resume.en.json";
 const ResumeContext = createContext();
 
 const languages = [
-  { code: "pt-BR", data: myMM },
   { code: "en-US", data: enUS },
+  { code: "pt-BR", data: myMM },
 ];
 
 export function ResumeProvider({ children }) {
