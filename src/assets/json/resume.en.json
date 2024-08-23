@@ -93,35 +93,45 @@
       "name": "English",
       "code": "pt-BR",
       "flag": "svg/united-states.svg",
-      "level": "Native Language"
+      "level": "Intermediate"
     },
     {
-      "name": "Portuguese",
+      "name": "Burmese",
       "code": "en-US",
       "flag": "svg/brazil.svg",
-      "level": "Intermediate"
+      "level": "Native Language"
     }
   ],
   "experience": [
     {
-      "job": "Bill & Melinda Gates Foundation",
-      "company": "Co-chair",
+      "job": "Mobile Developer",
+      "company": "Myanmar Information Technology Pte Ltd",
       "companyLogo": "img/company/co-chair.jpg",
-      "location": "New York",
+      "location": "Yangon",
       "workType": "Fulltime",
-      "start": "jan 2000",
-      "end": "Current",
+      "start": "feb 2023",
+      "end": "may 2024",
       "description": "Guided by the belief that every life has equal value, the Bill & Melinda Gates Foundation works to help all people lead healthy, productive lives. In developing countries, it focuses on improving people’s health and giving them the chance to lift themselves out of hunger and extreme poverty. In the United States, it seeks to ensure that all people—especially those with the fewest resources—have access to the opportunities they need to succeed in school and life. Based in Seattle, Washington, the foundation is led by CEO Mark Suzman, under the direction of co-chairs Bill Gates and Melinda French Gates and the board of trustees."
     },
     {
-      "job": "Breakthrough Energy",
-      "company": "Founder",
+      "job": "Mobile Developer",
+      "company": "Project Stores",
       "companyLogo": "img/company/founder.jpg",
-      "location": "New York",
+      "location": "Delhi, India",
+      "workType": "Remote",
+      "start": "dec 2023",
+      "end": "feb 2024",
+      "description": "At Project Stores, I've led the creation of Mobile Application, a top-tier app designed to provide users with a seamless and secure online experience. Leveraging my skills in UI/UX design, API integration, and security measures, I've developed a platform that offers real-time display, secure authentication, and hassle-free payment options. Users can effortlessly manage profiles, maintain anonymity online, and enjoy uninterrupted browsing with just a tap. My focus on user privacy and commitment to excellence has positioned as a trusted solution for those seeking enhanced online security and privacy."
+    },
+    {
+      "job": "Data Entry",
+      "company": "Blue Ocean Operating Management Co., Ltd.",
+      "companyLogo": "img/company/founder.jpg",
+      "location": "Yangon",
       "workType": "Fulltime",
-      "start": "jan 2015",
-      "end": "Current",
-      "description": "Breakthrough Energy is dedicated to helping humanity avoid a climate disaster. Through investment vehicles, philanthropic programs, policy advocacy, and other activities, we’re committed to scaling the technologies we need to reach net-zero emissions by 2050."
+      "start": "oct 2022",
+      "end": "mar 2023",
+      "description": "As a Data Entry Associate at Blue Ocean Operating Management Co., Ltd., I was responsible for accurately inputting, updating, and maintaining data within the company’s database systems, ensuring data quality and integrity through regular checks and corrections. I managed and organized records, prepared reports, and supported system updates while troubleshooting data entry issues. My role involved collaborating with various departments to gather and verify information, maintaining confidentiality of sensitive data, and contributing to process improvements for enhanced efficiency. Additionally, I provided general administrative support, including filing and scanning documents, and assisted with other office duties as needed."
     }
   ],
   "education": [
