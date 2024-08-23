@@ -1,12 +1,12 @@
 import React from "react";
-import ExperienceCard from "../components/ExperienceCard";
-import VolunteerCard from "../components/VolunteerCard";
+import EducationCard from "../components/EducationCard";
+import CertificateCard from "../components/CertificateCard";
 
 const EducationView = () => {
   return (
     <div>
-      <ExperienceCard />
-      <VolunteerCard />
+      <EducationCard />
+      {/* <CertificateCard /> */}
     </div>
   );
 };
