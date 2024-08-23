@@ -24,7 +24,7 @@
     "project": "ပရောဂျက်များ"
   },
   "paginate": {
-    "count": "{total} ရလဒ်များထဲမှ {first} မှ {last} အထိ ပြသနေသည်",
+    "count": "စုစုပေါင်းရလဒ် {{total}} ထဲမှ {{first}} မှ {{last}} အထိ ပြသနေသည်",
     "previous_page": "မူလစာမျက်နှာ",
     "next_page": "နောက်စာမျက်နှာ",
     "first_page": "ပထမစာမျက်နှာ",

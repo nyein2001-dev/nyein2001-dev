@@ -1,10 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import PropTypes from 'prop-types';
+import { useTranslation } from "react-i18next";
 import { ChevronLeftIcon, ChevronRightIcon, ChevronDoubleLeftIcon, ChevronDoubleRightIcon } from '@heroicons/react/20/solid';
 
 const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged }) => {
   const [currentPage, setCurrentPage] = useState(1);
-
+  const { t } = useTranslation(); 
   const lastPageCount = useMemo(() => Math.ceil(totalItems / itemsPerPage), [totalItems, itemsPerPage]);
 
   const visibleButtons = useMemo(() => Math.min(maxVisibleButtons, lastPageCount), [maxVisibleButtons, lastPageCount]);
@@ -66,7 +67,7 @@ const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged
       <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
         <div>
           <p className="text-sm text-gray-700 dark:text-night-300">
-            Showing {firstItem + 1} to {lastItem} of {totalItems}
+            {t('paginate.count', { first: firstItem + 1, last: lastItem, total: totalItems })}
           </p>
         </div>
         <div>

@@ -15,7 +15,7 @@
     "title": "Settings",
     "theme": "Theme",
     "dark_mode": "Enable dark mode?",
-    "pt": "Potuguese",
+    "pt": "Burmese",
     "en": "English"
   },
   "menu": {
@@ -24,7 +24,7 @@
     "project": "Projects"
   },
   "paginate": {
-    "count": "Showing {first} to {last} of {total} results",
+    "count": "Showing {{first}} to {{last}} of {{total}} results",
     "previous_page": "Previous page",
     "next_page": "Next page",
     "first_page": "First page",
