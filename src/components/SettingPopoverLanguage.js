@@ -7,7 +7,7 @@ import { useResumeStore } from "../stores/ResumeContext";
 import i18n from "../i18n";
 
 const languages = [
-  { name: "settings.pt", code: "pt-MM", flag: "svg/myanmar.svg" },
+  { name: "settings.pt", code: "my-MM", flag: "svg/myanmar.svg" },
   { name: "settings.en", code: "en-US", flag: "svg/united-states.svg" },
 ];
 

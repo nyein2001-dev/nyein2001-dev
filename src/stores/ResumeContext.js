@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import ptMM from '../assets/json/resume.mm.json';
+import myMM from '../assets/json/resume.mm.json';
 import enUS from '../assets/json/resume.en.json';
 
 const ResumeContext = createContext();
 
 const languages = [
-  { code: 'pt-BR', data: ptMM },
+  { code: 'my-MM', data: myMM },
   { code: 'en-US', data: enUS },
 ];
 
