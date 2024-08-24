@@ -284,7 +284,17 @@
           "forks": "",
           "url": "",
           "playstore": "https://play.google.com/store/apps/details?id=com.anii.app&pli=1",
-          "appstore": "https://apps.apple.com/us/app/ani/id6448970906"
+          "appstore": "https://apps.apple.com/us/app/ani/id6448970906",
+          "duties": [
+            "Designed and optimized UIs for anime, manga, and gaming communities.",
+            "Integrated APIs for news updates and community features.",
+            "Managed databases for efficient data handling.",
+            "Developed features to boost user engagement.",
+            "Analyzed user feedback for continuous improvement.",
+            "Collaborated with teams for seamless design and functionality.",
+            "Monitored platform performance and made updates as needed.",
+            "Ensured scalability and reliability for growing user demands."
+          ]
         }
       ]
     }
