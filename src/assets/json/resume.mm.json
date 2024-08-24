@@ -7,11 +7,18 @@
     "socialNetwork": [
       {
         "name": "github",
-        "url": "https://github.com/nyein2001-dev"
+        "url": "https://github.com/nyein2001-dev",
+        "icon": "AiFillGithub"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/nyein-chan-toe/"
+        "url": "https://www.linkedin.com/in/nyein-chan-toe/",
+        "icon": "AiFillLinkedin"
+      },
+      {
+        "name": "upwork",
+        "url": "https://www.upwork.com/freelancers/~01efd8c2ac35c4e2cc?mp_source=share",
+        "icon": "AiFillUpCircle"
       }
     ]
   },
@@ -55,11 +62,11 @@
     "Swift",
     "React Native",
     "Java",
-    "TypeScript",
     "JavaScript",
     "SwiftUI",
     "React",
     "NodeJS",
+    "Angular",
     "Android Jetpack",
     "Docker",
     "CI/CD",
@@ -84,6 +91,7 @@
     "Flutter BLoC",
     "မိုဘိုင်း အက်ပ် လုံခြုံရေး",
     "WebSockets",
+    "Geolocation",
     "Agile Methodologies",
     "Android Studio",
     "Xcode"
