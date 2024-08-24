@@ -326,7 +326,10 @@
       "image": "img/project/citylens.jfif",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001-dev/CityLens"
+      "url": "https://github.com/nyein2001-dev/CityLens",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "Art Stream",
@@ -335,7 +338,10 @@
       "image": "img/project/artstreams.png",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001-dev/ArtStream"
+      "url": "https://github.com/nyein2001-dev/ArtStream",
+      "source": "https://art-stream.vercel.app/",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "Sky Snap",
@@ -344,7 +350,10 @@
       "image": "img/project/skysnap.png",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001-dev/SkySnap"
+      "url": "https://github.com/nyein2001-dev/SkySnap",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "City Lens Backend",
@@ -353,7 +362,10 @@
       "image": "img/project/citylens.jfif",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001-dev/city-lens-backend"
+      "url": "https://github.com/nyein2001-dev/city-lens-backend",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "Let Drive",
@@ -362,7 +374,10 @@
       "image": "img/project/android.webp",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001/LetDrive"
+      "url": "https://github.com/nyein2001/LetDrive",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "Thuta Book Store",
@@ -371,7 +386,10 @@
       "image": "img/project/thuta.jfif",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001/Thuta-Book-Store"
+      "url": "https://github.com/nyein2001/Thuta-Book-Store",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "City Lens Web",
@@ -380,7 +398,10 @@
       "image": "img/project/citylens.jfif",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001-dev/city-lens-web-frontend"
+      "url": "https://github.com/nyein2001-dev/city-lens-web-frontend",
+      "source": "https://city-lens.vercel.app/",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "Flutter Custom Bottom Appbar",
@@ -389,7 +410,10 @@
       "image": "img/project/flutter.png",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001/Custom-Bottom-App-Bar"
+      "url": "https://github.com/nyein2001/Custom-Bottom-App-Bar",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "CurrencyX : Real-time Exchange & History Tracker",
@@ -398,7 +422,10 @@
       "image": "img/project/x.jfif",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001/Currency"
+      "url": "https://github.com/nyein2001/Currency",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "V-Connect",
@@ -407,7 +434,10 @@
       "image": "img/project/v.jfif",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001/V-Connect"
+      "url": "https://github.com/nyein2001/V-Connect",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     },
     {
       "name": "Splash Wallpaper",
@@ -416,7 +446,10 @@
       "image": "img/project/s.jfif",
       "stars": "",
       "forks": "",
-      "url": "https://github.com/nyein2001/Splash-Wallpaper"
+      "url": "https://github.com/nyein2001/Splash-Wallpaper",
+      "source": "",
+      "playstore": "",
+      "appstore": ""
     }
   ]
 }
