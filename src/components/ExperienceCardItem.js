@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import HeroIcon from "./HeroIcon.tsx";
 import { getImagePath } from "../helpers/Helper";
 import { useTranslation } from "react-i18next";
-import ProjectCardItem from "./ProjectCardItem.tsx";
+import ExperienceProjectCard from "./ExperienceProjectCardItem.tsx";
 
 const ExperienceCardItem = ({ item, separator }) => {
   const [activeTab, setActiveTab] = useState("overview");
@@ -23,7 +23,7 @@ const ExperienceCardItem = ({ item, separator }) => {
           <div>
             {item.projects &&
               item.projects.map((project, index) => (
-                <ProjectCardItem
+                <ExperienceProjectCard
                   key={index}
                   item={project}
                   separator={item.projects.length !== index + 1}
