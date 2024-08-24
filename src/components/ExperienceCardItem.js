@@ -137,8 +137,6 @@ ExperienceCardItem.propTypes = {
     start: PropTypes.string.isRequired,
     end: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    duties: PropTypes.arrayOf(PropTypes.string).isRequired,
-    achievements: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
   separator: PropTypes.bool.isRequired,
 };
