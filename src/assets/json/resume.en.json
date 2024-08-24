@@ -143,17 +143,12 @@
           "playstore": "https://play.google.com/store/apps/details?id=com.nirvasoft.app009",
           "appstore": "https://apps.apple.com/us/app/car-sayar/id1628960643",
           "duties": [
-            "Kotlin",
-            "Flutter",
-            "Dart",
-            "React Native",
-            "Swift",
-            "SwiftUI",
-            "React",
-            "Angular",
-            "HTML",
-            "Mobile UI/UX Design",
-            "Redux"
+            "Implemented BLoC, RiverPod, and SQLite.",
+            "Managed user settings, files, and real-time tracking.",
+            "Supported multilingual UIs with responsive design.",
+            "Integrated Firebase, APIs, maps, and media playback.",
+            "Secured data encryption, analytics, and ads.",
+            "Utilized Git for version control and collaborative development."
           ]
         },
         {
@@ -165,7 +160,17 @@
           "forks": "",
           "url": "",
           "playstore": "https://play.google.com/store/apps/details?id=com.nirvasoft.app010",
-          "appstore": "https://apps.apple.com/us/app/flaxi/id6463431415"
+          "appstore": "https://apps.apple.com/us/app/flaxi/id6463431415",
+          "duties": [
+            "Designed UIs with widget systems and platform guidelines.",
+            "Managed state with RiverPod, Provider, and BLoC.",
+            "Handled local storage, network connectivity, and permissions.",
+            "Integrated Firebase Crashlytics, internationalization, and localization.",
+            "Enabled WebSocket communication and HTTP requests.",
+            "Managed location services, maps, push notifications, and QR codes.",
+            "Extended functionality with third-party packages.",
+            "Used Firebase Analytics for tracking and improved UI/UX."
+          ]
         },
         {
           "name": "Sight Tech",
@@ -176,7 +181,15 @@
           "forks": "",
           "url": "",
           "playstore": "",
-          "appstore": "https://apps.apple.com/us/app/sight-tech-v2/id1633033080"
+          "appstore": "https://apps.apple.com/us/app/sight-tech-v2/id1633033080",
+          "duties": [
+            "Designed accessible UIs and integrated email services (iCloud, Gmail, Outlook, Yahoo).",
+            "Implemented text summarization, TTS, and voice commands.",
+            "Ensured accessibility with WCAG and screen reader testing.",
+            "Used Git for version control and integrated various APIs.",
+            "Supported multilingual content and monitored errors with Sentry.",
+            "Secured sensitive data, managed background tasks, and media playback."
+          ]
         }
       ],
       "achievements": [
@@ -198,7 +211,29 @@
       "workType": "Remote",
       "start": "dec 2023",
       "end": "feb 2024",
-      "description": "At Project Stores, I've led the creation of Mobile Application, a top-tier app designed to provide users with a seamless and secure online experience. Leveraging my skills in UI/UX design, API integration, and security measures, I've developed a platform that offers real-time display, secure authentication, and hassle-free payment options. Users can effortlessly manage profiles, maintain anonymity online, and enjoy uninterrupted browsing with just a tap. My focus on user privacy and commitment to excellence has positioned as a trusted solution for those seeking enhanced online security and privacy."
+      "description": "At Project Stores, I've led the creation of Mobile Application, a top-tier app designed to provide users with a seamless and secure online experience. Leveraging my skills in UI/UX design, API integration, and security measures, I've developed a platform that offers real-time display, secure authentication, and hassle-free payment options. Users can effortlessly manage profiles, maintain anonymity online, and enjoy uninterrupted browsing with just a tap. My focus on user privacy and commitment to excellence has positioned as a trusted solution for those seeking enhanced online security and privacy.",
+      "projects": [
+        {
+          "name": "Nd VPN",
+          "description": "Nd VPN is a top-tier VPN app offering real-time display, secure authentication, and seamless payment options. Easily manage profiles, stay anonymous online, and enjoy a hassle-free browsing experience. With Nd VPN, privacy is just a tap away.",
+          "language": "Dart",
+          "image": "img/project/nd.jfif",
+          "stars": "",
+          "forks": "",
+          "url": "",
+          "playstore": "",
+          "appstore": "",
+          "duties": [
+            "Designed UIs with Flutter widgets and managed state with Bloc.",
+            "Integrated Firebase for backend, analytics, and authentication.",
+            "Handled network requests, in-app purchases, and ads.",
+            "Implemented localization, app updates, and secure payments.",
+            "Managed images, web views, VPN, and device-specific features.",
+            "Enhanced UI/UX with Lottie animations and various widgets.",
+            "Tracked performance and user interactions with Firebase Analytics."
+          ]
+        }
+      ]
     },
     {
       "job": "Data Entry",

@@ -131,7 +131,7 @@ const ExperienceProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
         <div className="w-full mx-auto">
           <button
             onClick={toggleDropdown}
-            className="flex items-center mb-5 justify-between w-full"
+            className="flex items-center mb-4 justify-between w-full"
           >
             <span className="text-sm font-medium text-gray-500 dark:text-night-300">
               Responsibilities & Duties
@@ -157,7 +157,7 @@ const ExperienceProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
           {isOpen && (
             <ol className="list-none">
               {item.duties.map((responsibility, index) => (
-                <li key={index} className="flex items-start mb-4">
+                <li key={index} className="flex items-start mb-1 sm:mb-4">
                   <HeroIcon
                     isSolid={false}
                     icon="LightBulbIcon"

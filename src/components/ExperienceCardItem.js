@@ -41,7 +41,7 @@ const ExperienceCardItem = ({ item, separator }) => {
                 <li key={index} className="flex items-start mb-4">
                   <HeroIcon
                     icon="CheckCircleIcon"
-                    className="h-4 w-4 mx-2 text-primary-500 mt-0.5 shrink-0"
+                    className="h-4 w-4 mr-2 text-primary-500 mt-0.5 shrink-0"
                   />
                   <div>
                     <div className="font-medium text-sm text-gray-900 dark:text-night-100 mb-1">
