@@ -11,6 +11,10 @@
   "project": "Projects",
   "credential": "Credential",
   "credential_code": "Credential Code",
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "tools": "Tools & Technologies",
+  "development": "Development Practices",
   "settings": {
     "title": "Settings",
     "theme": "Theme",

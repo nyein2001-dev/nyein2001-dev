@@ -55,59 +55,69 @@
       "value": "Remote or Fulltime"
     }
   ],
-  "skill": [
-    "Kotlin",
-    "Flutter",
-    "Dart",
-    "Swift",
-    "React Native",
-    "Java",
-    "JavaScript",
-    "SwiftUI",
-    "React",
-    "NodeJS",
-    "Angular",
-    "Android Jetpack",
-    "Docker",
-    "CI/CD",
-    "API ပေါင်းစပ်ခြင်း",
-    "မိုဘိုင်း UI/UX ဒီဇိုင်း",
-    "GraphQL",
-    "Firebase",
-    "Redux",
-    "Python",
-    "Django",
-    "C#",
-    "Spring Boot",
-    "HTML",
-    "PostgreSQL",
-    "MySQL",
-    "Microsoft SQL",
-    "RESTful APIs",
-    "Git",
-    "စွမ်းဆောင်ရည် မြှင့်တင်ခြင်း",
-    "ယူနစ်စမ်းသပ်ခြင်း",
-    "ပေါင်းစပ်စမ်းသပ်ခြင်း",
-    "Flutter BLoC",
-    "မိုဘိုင်း အက်ပ် လုံခြုံရေး",
-    "WebSockets",
-    "Geolocation",
-    "Agile Methodologies",
-    "Android Studio",
-    "Xcode"
-  ],
+  "skill": {
+    "frontend": [
+      "Kotlin",
+      "Flutter",
+      "Dart",
+      "React Native",
+      "Swift",
+      "SwiftUI",
+      "React",
+      "Angular",
+      "HTML",
+      "မိုဘိုင်း UI/UX ဒီဇိုင်း",
+      "Redux"
+    ],
+    "backend": [
+      "Python",
+      "Django",
+      "Java",
+      "NodeJS",
+      "C#",
+      "Spring Boot",
+      "GraphQL",
+      "RESTful APIs",
+      "PostgreSQL",
+      "MySQL",
+      "Microsoft SQL"
+    ],
+    "tools": [
+      "Docker",
+      "CI/CD",
+      "API ပေါင်းစပ်ခြင်း",
+      "Firebase",
+      "WebSockets",
+      "Git",
+      "စွမ်းဆောင်ရည် မြှင့်တင်ခြင်း",
+      "ယူနစ်စမ်းသပ်ခြင်း",
+      "ပေါင်းစပ်စမ်းသပ်ခြင်း",
+      "Flutter BLoC",
+      "RiverPod",
+      "မိုဘိုင်း အက်ပ် လုံခြုံရေး",
+      "Geolocation",
+      "Android Studio",
+      "Xcode"
+    ],
+    "development": [
+      "Agile Methodologies",
+      "Android Jetpack"
+    ]
+  },
   "language": [
     {
       "name": "အင်္ဂလိပ်",
       "code": "en-US",
       "flag": "svg/united-states.svg",
-      "level": "အလယ်အလတ်"
+      "level": "အလယ်အလတ်",
+      "star": 3
     },
     {
       "name": "မြန်မာ",
       "code": "pt-BR",
       "flag": "svg/myanmar.svg",
-      "level": "မိခင်ဘာသာစကား"
+      "level": "မိခင်ဘာသာစကား",
+      "star": 5
     }
   ],
   "experience": [
