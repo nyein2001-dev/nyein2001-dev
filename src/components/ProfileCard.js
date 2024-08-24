@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { useResumeStore } from '../stores/ResumeContext';
-import SettingsPopover from './SettingsPopover';
-import { getImagePath } from '../helpers/Helper';
-import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css';
+import React, { useState } from "react";
+import { useResumeStore } from "../stores/ResumeContext";
+import SettingsPopover from "./SettingsPopover";
+import { getImagePath } from "../helpers/Helper";
+import Lightbox from "react-image-lightbox";
+import "react-image-lightbox/style.css";
 
 const ProfileCard = () => {
   const { resume } = useResumeStore();
@@ -26,15 +26,12 @@ const ProfileCard = () => {
             src={getImagePath(resume.profile.avatar)}
             onClick={showProfileImage}
             alt="Avatar"
-            className="h-14 w-14 cursor-pointer rounded-xl border-2 border-white shadow-sm dark:border-night-800"
+            className="h-14 w-14 cursor-pointer rounded-xl border-2 border-white shadow-sm dark:border-night-800
+            transition-transform duration-300 ease-in-out hover:scale-110 hover:border-primary-500
+            hover:shadow-lg hover:ring-2 hover:ring-primary-500 hover:ring-opacity-50 hover:animate-pulse"
           />
           {/* End profile avatar */}
-          {visible && (
-            <Lightbox
-              mainSrc={imgs[0]}
-              onCloseRequest={onHide}
-            />
-          )}
+          {visible && <Lightbox mainSrc={imgs[0]} onCloseRequest={onHide} />}
           <div>
             <div className="text-lg font-bold text-gray-900 dark:text-night-50">
               {resume.profile.name}
