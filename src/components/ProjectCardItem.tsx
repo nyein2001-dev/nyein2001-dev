@@ -74,6 +74,36 @@ const ProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
                   <span>Github</span>
                 </a>
               )}
+              {item.appstore && (
+                <a
+                  href={item.appstore}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-sm font-medium"
+                >
+                  <HeroIcon
+                    icon="StarIcon"
+                    isSolid={false}
+                    className="h-4 w-4 shrink-0 stroke-2"
+                  />
+                  <span>AppStore</span>
+                </a>
+              )}
+              {item.playstore && (
+                <a
+                  href={item.playstore}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-sm font-medium"
+                >
+                  <HeroIcon
+                    icon="PlayIcon"
+                    isSolid={false}
+                    className="h-4 w-4 shrink-0 stroke-2"
+                  />
+                  <span>PlayStore</span>
+                </a>
+              )}
             </div>
           </div>
         </div>

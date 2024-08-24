@@ -7,4 +7,6 @@ export interface Project {
   forks?: string;
   downloads?: string;
   url: string;
+  playstore?: string;
+  appstore?: string;
 }
