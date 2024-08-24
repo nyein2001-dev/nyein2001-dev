@@ -33,9 +33,27 @@ const ExperienceCardItem = ({ item, separator }) => {
         );
       case "achievements":
         return (
-          <ul className="text-sm text-gray-600 dark:text-night-300 list-disc pl-5">
-            <li>"achievements"</li>
-          </ul>
+          <ol className="list-none pl-0">
+            {" "}
+            {/* Remove default list styling */}
+            {item.achievements &&
+              item.achievements.map((achievement, index) => (
+                <li key={index} className="flex items-start mb-4">
+                  <HeroIcon
+                    icon="CheckCircleIcon"
+                    className="h-4 w-4 mx-2 text-primary-500 mt-0.5 shrink-0"
+                  />
+                  <div>
+                    <div className="font-medium text-sm text-gray-900 dark:text-night-100 mb-1">
+                      {achievement.name}
+                    </div>
+                    <div className="text-sm text-gray-400 dark:text-night-400">
+                      {achievement.description}
+                    </div>
+                  </div>
+                </li>
+              ))}
+          </ol>
         );
       default:
         return null;

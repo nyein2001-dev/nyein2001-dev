@@ -13,11 +13,11 @@ interface ProjectProps {
 const ExperienceProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
   return (
     <div className="mb-5">
-      <div className="mb-2 flex sm:flex-row items-start">
+      <div className="mb-2 flex sm:flex-row items-center">
         <img
           src={getImagePath(item.image)}
           alt="project logo"
-          className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 rounded-xl border-2 border-gray-50 shadow-sm dark:border-night-700"
+          className="h-10 w-10 shrink-0 rounded-xl border-2 flex items-center border-gray-50 shadow-sm dark:border-night-700"
         />
         <div className="ml-2 sm:ml-3 w-full space-y-3 sm:space-y-5">
           <div className="flex flex-col sm:flex-row justify-between">
@@ -98,7 +98,7 @@ const ExperienceProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
                     className="flex items-center gap-2 sm:gap-1 text-xs sm:text-sm font-medium"
                   >
                     <PlayStoreIcon className="h-3 sm:h-4 w-3 sm:w-4 shrink-0" />
-                    <span className="text-xs sm:text-sm">Play</span>
+                    <span className="text-xs sm:text-sm">PlayStore</span>
                   </a>
                 )}
               </div>
