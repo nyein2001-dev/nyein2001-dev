@@ -17,6 +17,13 @@ const LanguageCardItem: React.FC<LanguageCardProps> = ({ item }) => {
         <div className="text-xs text-gray-400 dark:text-night-400">
           {item.level}
         </div>
+
+        <div className="w-full bg-gray-300 rounded-full h-2.5 dark:bg-night-700 mt-1">
+          <div
+            className="bg-yellow-500 h-2.5 rounded-full"
+            style={{ width: `${item.star * 20}%` }}
+          ></div>
+        </div>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ export interface Language {
     code: string;
     flag: string;
     level?: string;
+    star: number;
   }
 
  export interface LanguageCardProps {
