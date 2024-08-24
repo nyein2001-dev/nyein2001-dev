@@ -2,8 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import HeroIcon from "./HeroIcon.tsx";
 import { getImagePath } from "../helpers/Helper";
+import ProjectCardItem from "./ProjectCardItem.tsx";
+import { useTranslation } from "react-i18next";
 
 const ExperienceCardItem = ({ item, separator }) => {
+  const { t } = useTranslation();
   return (
     <div className="mb-5 flex items-start">
       <img
@@ -42,6 +45,19 @@ const ExperienceCardItem = ({ item, separator }) => {
           className="text-sm text-gray-600 dark:text-night-300"
           dangerouslySetInnerHTML={{ __html: item.description }}
         />
+        {item.projects && (
+          <h2 className="mb-5 text-lg font-semibold dark:text-night-50">
+            {t("project")}
+          </h2>
+        )}
+        {item.projects &&
+          item.projects.map((project, index) => (
+            <ProjectCardItem
+              key={index}
+              item={project}
+              separator={index !== item.projects.length - 1}
+            />
+          ))}
         {separator && (
           <div className="border-b border-dashed border-gray-200 dark:border-night-600"></div>
         )}
