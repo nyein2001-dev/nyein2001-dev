@@ -42,7 +42,7 @@ const LanguageCardItem = ({ item }) => {
           {item.level}
         </div>
 
-        <div className="w-full bg-gray-300 rounded-full h-2.5 mb-1 dark:bg-night-700 mt-1">
+        <div className="w-full rounded-full h-2.5 mb-1 dark:bg-night-700 mt-1">
           <div className="flex items-center mt-1">{renderStars()}</div>
 
           {/* <div

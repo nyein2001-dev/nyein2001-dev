@@ -34,8 +34,8 @@ const AboutCard = () => {
                   to={item.route}
                   className={`inline-flex cursor-pointer items-center gap-1 rounded-lg border-2 px-2 py-1.5 text-xs font-medium ${
                     isActive
-                      ? "bg-gray-100 text-gray-400 dark:bg-night-700 dark:text-night-300"
-                      : "border-gray-100 text-gray-400 hover:border-gray-100 hover:gray-100 hover:text-gray-400 dark:border-night-700 dark:text-night-400 dark:hover:border-primary-500 dark:hover:bg-primary-500/20 dark:hover:text-primary-500"
+                      ? "bg-primary-500/20 text-primary-500 border-primary-500"
+                      : "border-gray-100 text-gray-400 hover:border-gray-100 hover:bg-gray-100 hover:text-gray-400 dark:border-night-700 dark:text-night-400 dark:hover:border-primary-500 dark:hover:bg-primary-500/20 dark:hover:text-primary-500"
                   }`}
                 >
                   <HeroIcon
