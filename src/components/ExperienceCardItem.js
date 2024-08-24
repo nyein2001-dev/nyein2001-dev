@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import HeroIcon from "./HeroIcon.tsx";
 import { getImagePath } from "../helpers/Helper";
 import { useTranslation } from "react-i18next";
+import ProjectCardItem from "./ProjectCardItem.tsx";
 
 const ExperienceCardItem = ({ item, separator }) => {
   const [activeTab, setActiveTab] = useState("overview");
@@ -19,9 +20,16 @@ const ExperienceCardItem = ({ item, separator }) => {
         );
       case "duties":
         return (
-          <ul className="text-sm text-gray-600 dark:text-night-300 list-disc pl-5">
-            <li>"Duty"</li>
-          </ul>
+          <div>
+            {item.projects &&
+              item.projects.map((project, index) => (
+                <ProjectCardItem
+                  key={index}
+                  item={project}
+                  separator={item.projects.length !== index + 1}
+                />
+              ))}
+          </div>
         );
       case "achievements":
         return (
@@ -70,38 +78,44 @@ const ExperienceCardItem = ({ item, separator }) => {
         </div>
 
         {/* Tab Buttons */}
-        <div className="flex space-x-4">
-          <button
-            onClick={() => setActiveTab("overview")}
-            className={`text-sm font-medium ${
-              activeTab === "overview"
-                ? "text-primary-500 border-b-2 border-primary-500"
-                : "text-gray-500 dark:text-night-300"
-            }`}
-          >
-            {t("overview")}
-          </button>
-          <button
-            onClick={() => setActiveTab("duties")}
-            className={`text-sm font-medium ${
-              activeTab === "duties"
-                ? "text-primary-500 border-b-2 border-primary-500"
-                : "text-gray-500 dark:text-night-300"
-            }`}
-          >
-            {t("project")}
-          </button>
-          <button
-            onClick={() => setActiveTab("achievements")}
-            className={`text-sm font-medium ${
-              activeTab === "achievements"
-                ? "text-primary-500 border-b-2 border-primary-500"
-                : "text-gray-500 dark:text-night-300"
-            }`}
-          >
-            {t("achievements")}
-          </button>
-        </div>
+        {(item.projects || item.achievements) && (
+          <div className="flex space-x-4">
+            <button
+              onClick={() => setActiveTab("overview")}
+              className={`text-sm font-medium ${
+                activeTab === "overview"
+                  ? "text-primary-500 border-b-2 border-primary-500"
+                  : "text-gray-500 dark:text-night-300"
+              }`}
+            >
+              {t("overview")}
+            </button>
+            {item.projects && item.projects.length > 0 && (
+              <button
+                onClick={() => setActiveTab("duties")}
+                className={`text-sm font-medium ${
+                  activeTab === "duties"
+                    ? "text-primary-500 border-b-2 border-primary-500"
+                    : "text-gray-500 dark:text-night-300"
+                }`}
+              >
+                {t("project")}
+              </button>
+            )}
+            {item.achievements && item.achievements.length > 0 && (
+              <button
+                onClick={() => setActiveTab("achievements")}
+                className={`text-sm font-medium ${
+                  activeTab === "achievements"
+                    ? "text-primary-500 border-b-2 border-primary-500"
+                    : "text-gray-500 dark:text-night-300"
+                }`}
+              >
+                {t("achievements")}
+              </button>
+            )}
+          </div>
+        )}
 
         {renderContent()}
 

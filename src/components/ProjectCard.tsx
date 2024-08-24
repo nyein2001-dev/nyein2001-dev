@@ -2,7 +2,7 @@ import React, { useState, useMemo } from "react";
 import ProjectCardItem from "./ProjectCardItem.tsx";
 import MyPaginate from "./MyPaginate";
 import { useTranslation } from "react-i18next";
-import { useResumeStore } from "../stores/ResumeContext"; // Adjust import based on your actual setup
+import { useResumeStore } from "../stores/ResumeContext";
 
 const itemsPerPage = 3;
 
@@ -11,7 +11,7 @@ const ProjectList: React.FC = () => {
   const { t } = useTranslation();
   const [currentPage, setCurrentPage] = useState<number>(1);
 
-  const resume = resumeStore.resume; // Adjust according to how you access your store
+  const resume = resumeStore.resume;
 
   const total = useMemo(() => {
     return resume.project.length;
