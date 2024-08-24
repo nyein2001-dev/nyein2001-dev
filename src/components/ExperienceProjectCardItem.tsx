@@ -2,6 +2,8 @@ import React from "react";
 import { getImagePath } from "../helpers/Helper";
 import { Project } from "../models/Project";
 import HeroIcon from "./HeroIcon.tsx";
+import { ReactComponent as AppStoreIcon } from "../assets/svg/appstore.svg";
+import { ReactComponent as PlayStoreIcon } from "../assets/svg/playstore.svg";
 
 interface ProjectProps {
   item: Project;
@@ -84,11 +86,7 @@ const ExperienceProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 sm:gap-1 text-xs sm:text-sm font-medium"
                   >
-                    <HeroIcon
-                      icon="StarIcon"
-                      isSolid={false}
-                      className="h-3 sm:h-4 w-3 sm:w-4 shrink-0 stroke-2"
-                    />
+                    <AppStoreIcon className="h-4 sm:h-5 w-4 sm:w-5 shrink-0" />
                     <span className="text-xs sm:text-sm">AppStore</span>
                   </a>
                 )}
@@ -99,11 +97,7 @@ const ExperienceProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 sm:gap-1 text-xs sm:text-sm font-medium"
                   >
-                    <HeroIcon
-                      icon="PlayIcon"
-                      isSolid={false}
-                      className="h-3 sm:h-4 w-3 sm:w-4 shrink-0 stroke-2"
-                    />
+                    <PlayStoreIcon className="h-3 sm:h-4 w-3 sm:w-4 shrink-0" />
                     <span className="text-xs sm:text-sm">Play</span>
                   </a>
                 )}

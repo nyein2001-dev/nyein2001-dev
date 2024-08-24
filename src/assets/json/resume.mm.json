@@ -135,33 +135,33 @@
         {
           "name": "Car Sayar : Empowering Drivers",
           "description": "Car Sayar is a revolutionary mobile application designed to empower drivers by providing real-time insights and essential tools for a seamless driving experience. With its advanced features, Car Sayar offers drivers the ability to calculate real-time kilometers, monitor speed, track charges, and access other necessary information, all within a single intuitive platform.",
-          "language": "Dart, Kotlin, Swift",
+          "language": "Dart",
           "image": "img/project/citylens.jfif",
           "stars": "",
           "forks": "",
-          "url": "https://www.facebook.com/profile.php?id=61556838638345",
+          "url": "",
           "playstore": "https://play.google.com/store/apps/details?id=com.nirvasoft.app009",
           "appstore": "https://apps.apple.com/us/app/car-sayar/id1628960643"
         },
         {
           "name": "Car Sayar Passenger : Request a Ride",
           "description": "Car Sayar Passenger is a cutting-edge ride booking application designed with passenger safety as the top priority. With Car Sayar Passenger, passengers can book rides seamlessly while enjoying real-time monitoring of the driver's route, tracking charges, kilometers traveled, and speed. Whether it's a short commute or a long journey, Car Sayar Passenger ensures a safe and secure travel experience for all passengers.",
-          "language": "Dart, Kotlin, Swift",
+          "language": "Dart",
           "image": "img/project/artstreams.png",
           "stars": "",
           "forks": "",
-          "url": "https://www.facebook.com/profile.php?id=61556838638345",
+          "url": "",
           "playstore": "https://play.google.com/store/apps/details?id=com.nirvasoft.app010",
           "appstore": "https://apps.apple.com/us/app/flaxi/id6463431415"
         },
         {
           "name": "Sight Tech",
           "description": "Sight Tech is an email app designed specifically for blind users. It works with Gmail, ICloud, Outlook, Yahoo and others and lets users manage their email with voice commands. Text-to-speech reads emails aloud and voice recognition allows for composing and replying with voice commands. This makes email accessible and efficient for blind users.",
-          "language": "Dart, Kotlin, Swift",
+          "language": "Dart",
           "image": "img/project/skysnap.png",
           "stars": "",
           "forks": "",
-          "url": "https://www.mit.com.mm/",
+          "url": "",
           "playstore": "",
           "appstore": "https://apps.apple.com/us/app/sight-tech-v2/id1633033080"
         }
@@ -220,7 +220,7 @@
         {
           "name": "Ani",
           "description": "Ani is the ultimate hub for anime and manga enthusiasts, offering a vibrant community and powerful tools to enhance your fandom experience. Connect with fellow fans in lively chatrooms, track your anime and manga journey with ease, and soon, dive into thrilling microgames that blend quick challenges with captivating narratives. With Ani, staying connected to your favorite series and making new friends has never been easier.",
-          "language": "Kotlin",
+          "language": "Dart",
           "image": "img/project/citylens.jfif",
           "stars": "",
           "forks": "",
