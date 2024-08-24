@@ -12,6 +12,7 @@ const LanguageCardItem = ({ item }) => {
       return index < level ? (
         // <SolidStarIcon key={index} className="h-4 w-4 text-yellow-500" />
         <HeroIcon
+          key={index}
           icon="StarIcon"
           isSolid={true}
           className="h-4 w-4 text-yellow-500"
@@ -19,6 +20,7 @@ const LanguageCardItem = ({ item }) => {
       ) : (
         // <OutlineStarIcon key={index} className="h-4 w-4 text-gray-300" />
         <HeroIcon
+          key={index}
           icon="StarIcon"
           isSolid={false}
           className="h-4 w-4 text-gray-300"
