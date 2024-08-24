@@ -127,52 +127,53 @@ const ExperienceProjectCard: React.FC<ProjectProps> = ({ item, separator }) => {
       <p className="text-sm mb-2 text-gray-600 dark:text-night-300">
         {item.description}
       </p>
-      <div className="w-full mx-auto">
-        <button
-          onClick={toggleDropdown}
-          className="flex items-center justify-between w-full"
-        >
-          <span className="text-sm font-medium text-gray-500 dark:text-night-300">
-            Responsibilities & Duties
-          </span>
-          <span className={`transform ${isOpen ? "rotate-180" : ""}`}>
-            <svg
-              className="w-5 h-5 text-gray-500 dark:text-night-300"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </span>
-        </button>
-
-        {isOpen && (
-          <ol className="mt-2 list-none">
-            {item.duties.map((responsibility, index) => (
-              <li key={index} className="flex items-start mb-4">
-                {/* <ClipboardListIcon className="h-5 w-5 text-blue-500 mr-2 mt-1" /> */}
-                <HeroIcon
-                  isSolid={false}
-                  icon="LightBulbIcon"
-                  className="h-5 w-5 text-primary-400 mr-2 mt-1"
+      {item.duties && (
+        <div className="w-full mx-auto">
+          <button
+            onClick={toggleDropdown}
+            className="flex items-center mb-5 justify-between w-full"
+          >
+            <span className="text-sm font-medium text-gray-500 dark:text-night-300">
+              Responsibilities & Duties
+            </span>
+            <span className={`transform ${isOpen ? "rotate-180" : ""}`}>
+              <svg
+                className="w-5 h-5 text-gray-500 dark:text-night-300"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
                 />
-                <div>
-                  <div className="font-medium text-sm text-gray-900 dark:text-night-100 mb-1">
-                    {responsibility}
+              </svg>
+            </span>
+          </button>
+
+          {isOpen && (
+            <ol className="list-none">
+              {item.duties.map((responsibility, index) => (
+                <li key={index} className="flex items-start mb-4">
+                  <HeroIcon
+                    isSolid={false}
+                    icon="LightBulbIcon"
+                    className="h-5 w-5 text-primary-400 mr-2 mt-1"
+                  />
+                  <div>
+                    <div className="font-medium text-sm text-gray-900 dark:text-night-100 mb-1">
+                      {responsibility}
+                    </div>
                   </div>
-                </div>
-              </li>
-            ))}
-          </ol>
-        )}
-      </div>
+                </li>
+              ))}
+            </ol>
+          )}
+        </div>
+      )}
       {separator && (
         <div className="border-b border-dashed border-gray-200 dark:border-night-600"></div>
       )}
