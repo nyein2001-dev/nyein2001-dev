@@ -141,7 +141,20 @@
           "forks": "",
           "url": "",
           "playstore": "https://play.google.com/store/apps/details?id=com.nirvasoft.app009",
-          "appstore": "https://apps.apple.com/us/app/car-sayar/id1628960643"
+          "appstore": "https://apps.apple.com/us/app/car-sayar/id1628960643",
+          "duties": [
+            "Kotlin",
+            "Flutter",
+            "Dart",
+            "React Native",
+            "Swift",
+            "SwiftUI",
+            "React",
+            "Angular",
+            "HTML",
+            "Mobile UI/UX Design",
+            "Redux"
+          ]
         },
         {
           "name": "Car Sayar Passenger : Request a Ride",

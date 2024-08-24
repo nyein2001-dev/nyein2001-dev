@@ -9,4 +9,5 @@ export interface Project {
   url: string;
   playstore?: string;
   appstore?: string;
+  duties?: any
 }
