@@ -1,9 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import HeroIcon from "./HeroIcon.tsx";
 import { getImagePath } from "../helpers/Helper";
+import { useTranslation } from "react-i18next";
 
 const ExperienceCardItem = ({ item, separator }) => {
+  const [activeTab, setActiveTab] = useState("overview");
+  const { t } = useTranslation();
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case "overview":
+        return (
+          <p
+            className="text-sm text-gray-600 dark:text-night-300"
+            dangerouslySetInnerHTML={{ __html: item.description }}
+          />
+        );
+      case "duties":
+        return (
+          <ul className="text-sm text-gray-600 dark:text-night-300 list-disc pl-5">
+            <li>"Duty"</li>
+          </ul>
+        );
+      case "achievements":
+        return (
+          <ul className="text-sm text-gray-600 dark:text-night-300 list-disc pl-5">
+            <li>"achievements"</li>
+          </ul>
+        );
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="mb-5 flex items-start">
       <img
@@ -38,10 +68,43 @@ const ExperienceCardItem = ({ item, separator }) => {
             </div>
           </div>
         </div>
-        <p
-          className="text-sm text-gray-600 dark:text-night-300"
-          dangerouslySetInnerHTML={{ __html: item.description }}
-        />
+
+        {/* Tab Buttons */}
+        <div className="flex space-x-4">
+          <button
+            onClick={() => setActiveTab("overview")}
+            className={`text-sm font-medium ${
+              activeTab === "overview"
+                ? "text-primary-500 border-b-2 border-primary-500"
+                : "text-gray-500 dark:text-night-300"
+            }`}
+          >
+            {t("overview")}
+          </button>
+          <button
+            onClick={() => setActiveTab("duties")}
+            className={`text-sm font-medium ${
+              activeTab === "duties"
+                ? "text-primary-500 border-b-2 border-primary-500"
+                : "text-gray-500 dark:text-night-300"
+            }`}
+          >
+            {t("project")}
+          </button>
+          <button
+            onClick={() => setActiveTab("achievements")}
+            className={`text-sm font-medium ${
+              activeTab === "achievements"
+                ? "text-primary-500 border-b-2 border-primary-500"
+                : "text-gray-500 dark:text-night-300"
+            }`}
+          >
+            {t("achievements")}
+          </button>
+        </div>
+
+        {renderContent()}
+
         {separator && (
           <div className="border-b border-dashed border-gray-200 dark:border-night-600"></div>
         )}
@@ -60,6 +123,8 @@ ExperienceCardItem.propTypes = {
     start: PropTypes.string.isRequired,
     end: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    duties: PropTypes.arrayOf(PropTypes.string).isRequired,
+    achievements: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
   separator: PropTypes.bool.isRequired,
 };
