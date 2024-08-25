@@ -1,22 +1,42 @@
-import React, { useState, useMemo } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState, useMemo } from "react";
+import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
-import { ChevronLeftIcon, ChevronRightIcon, ChevronDoubleLeftIcon, ChevronDoubleRightIcon } from '@heroicons/react/20/solid';
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  ChevronDoubleLeftIcon,
+  ChevronDoubleRightIcon,
+} from "@heroicons/react/20/solid";
 
-const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged }) => {
+const MyPaginate = ({
+  totalItems,
+  itemsPerPage,
+  maxVisibleButtons,
+  onPageChanged,
+}) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const { t } = useTranslation(); 
-  const lastPageCount = useMemo(() => Math.ceil(totalItems / itemsPerPage), [totalItems, itemsPerPage]);
+  const { t } = useTranslation();
+  const lastPageCount = useMemo(
+    () => Math.ceil(totalItems / itemsPerPage),
+    [totalItems, itemsPerPage]
+  );
 
-  const visibleButtons = useMemo(() => Math.min(maxVisibleButtons, lastPageCount), [maxVisibleButtons, lastPageCount]);
+  const visibleButtons = useMemo(
+    () => Math.min(maxVisibleButtons, lastPageCount),
+    [maxVisibleButtons, lastPageCount]
+  );
 
   const startPage = useMemo(() => {
     if (currentPage === 1) return 1;
-    if (currentPage === lastPageCount) return lastPageCount - visibleButtons + 1;
+    if (currentPage === lastPageCount)
+      return lastPageCount - visibleButtons + 1;
     return currentPage - 1;
   }, [currentPage, lastPageCount, visibleButtons]);
 
-  const endPage = useMemo(() => Math.min(startPage + visibleButtons - 1, lastPageCount), [startPage, visibleButtons, lastPageCount]);
+  const endPage = useMemo(
+    () => Math.min(startPage + visibleButtons - 1, lastPageCount),
+    [startPage, visibleButtons, lastPageCount]
+  );
 
   const pages = useMemo(() => {
     const range = [];
@@ -30,10 +50,19 @@ const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged
   }, [startPage, endPage, currentPage]);
 
   const isInFirstPage = useMemo(() => currentPage === 1, [currentPage]);
-  const isInLastPage = useMemo(() => currentPage === lastPageCount, [currentPage, lastPageCount]);
+  const isInLastPage = useMemo(
+    () => currentPage === lastPageCount,
+    [currentPage, lastPageCount]
+  );
 
-  const firstItem = useMemo(() => (currentPage - 1) * itemsPerPage, [currentPage, itemsPerPage]);
-  const lastItem = useMemo(() => Math.min(firstItem + itemsPerPage, totalItems), [firstItem, itemsPerPage, totalItems]);
+  const firstItem = useMemo(
+    () => (currentPage - 1) * itemsPerPage,
+    [currentPage, itemsPerPage]
+  );
+  const lastItem = useMemo(
+    () => Math.min(firstItem + itemsPerPage, totalItems),
+    [firstItem, itemsPerPage, totalItems]
+  );
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -47,46 +76,74 @@ const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged
         <button
           disabled={isInFirstPage}
           onClick={() => handlePageChange(currentPage - 1)}
-          className="arrow-button rounded-lg"
+          className="arrow-button rounded-lg text-gray-700 dark:text-night-300"
         >
-          <span className="sr-only">Previous</span>
+          <span className="sr-only text-gray-700 dark:text-night-300">
+            Previous
+          </span>
           <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
-          <span className="pr-2 text-xs">Previous Page</span>
+          <span className="pr-2 text-xs text-gray-700 dark:text-night-300">
+            Previous Page
+          </span>
         </button>
         <button
           onClick={() => handlePageChange(currentPage + 1)}
           disabled={isInLastPage}
-          className="arrow-button rounded-lg"
+          className="arrow-button rounded-lg text-gray-700 dark:text-night-300"
         >
-          <span className="sr-only">Next</span>
-          <span className="pl-2 text-xs">Next Page</span>
-          <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
+          <span className="sr-only text-gray-700 dark:text-night-300">
+            Next
+          </span>
+          <span className="pl-2 text-xs text-gray-700 dark:text-night-300">
+            Next Page
+          </span>
+          <ChevronRightIcon
+            className="h-5 w-5 text-gray-700 dark:text-night-300"
+            aria-hidden="true"
+          />
         </button>
       </div>
 
       <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
         <div>
           <p className="text-sm text-gray-700 dark:text-night-300">
-            {t('paginate.count', { first: firstItem + 1, last: lastItem, total: totalItems })}
+            {t("paginate.count", {
+              first: firstItem + 1,
+              last: lastItem,
+              total: totalItems,
+            })}
           </p>
         </div>
         <div>
-          <nav className="isolate inline-flex gap-2 -space-x-px" aria-label="Pagination">
+          <nav
+            className="isolate inline-flex gap-2 -space-x-px"
+            aria-label="Pagination"
+          >
             <button
               disabled={isInFirstPage}
               onClick={() => handlePageChange(1)}
-              className="arrow-button rounded-full"
+              className="arrow-button rounded-full text-gray-700 dark:text-night-300"
             >
-              <span className="sr-only">First Page</span>
-              <ChevronDoubleLeftIcon className="h-5 w-5" aria-hidden="true" />
+              <span className="sr-only text-gray-700 dark:text-night-300">
+                First Page
+              </span>
+              <ChevronDoubleLeftIcon
+                className="h-5 w-5 text-gray-700 dark:text-night-300"
+                aria-hidden="true"
+              />
             </button>
             <button
               disabled={isInFirstPage}
               onClick={() => handlePageChange(currentPage - 1)}
-              className="arrow-button rounded-lg"
+              className="arrow-button rounded-lg text-gray-700 dark:text-night-300"
             >
-              <span className="sr-only">Previous Page</span>
-              <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
+              <span className="sr-only text-gray-700 dark:text-night-300">
+                Previous Page
+              </span>
+              <ChevronLeftIcon
+                className="h-5 w-5 text-gray-700 dark:text-night-300"
+                aria-hidden="true"
+              />
             </button>
 
             {pages.map((page) => (
@@ -95,7 +152,9 @@ const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged
                 type="button"
                 onClick={() => handlePageChange(page.id)}
                 disabled={page.isDisabled}
-                className={`button ${page.isDisabled ? 'active' : ''}`}
+                className={`button ${
+                  page.isDisabled ? "active" : ""
+                } text-gray-700 dark:text-night-300`}
                 aria-label={`Go to page number ${page.id}`}
               >
                 {page.id}
@@ -105,18 +164,28 @@ const MyPaginate = ({ totalItems, itemsPerPage, maxVisibleButtons, onPageChanged
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={isInLastPage}
-              className="arrow-button rounded-lg"
+              className="arrow-button rounded-lg text-gray-700 dark:text-night-300"
             >
-              <span className="sr-only">Next Page</span>
-              <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
+              <span className="sr-only text-gray-700 dark:text-night-300">
+                Next Page
+              </span>
+              <ChevronRightIcon
+                className="h-5 w-5 text-gray-700 dark:text-night-300"
+                aria-hidden="true"
+              />
             </button>
             <button
               disabled={isInLastPage}
               onClick={() => handlePageChange(lastPageCount)}
-              className="arrow-button rounded-full"
+              className="arrow-button rounded-full text-gray-700 dark:text-night-300"
             >
-              <span className="sr-only">Last Page</span>
-              <ChevronDoubleRightIcon className="h-5 w-5" aria-hidden="true" />
+              <span className="sr-only text-gray-700 dark:text-night-300">
+                Last Page
+              </span>
+              <ChevronDoubleRightIcon
+                className="h-5 w-5 text-gray-700 dark:text-night-300"
+                aria-hidden="true"
+              />
             </button>
           </nav>
         </div>
