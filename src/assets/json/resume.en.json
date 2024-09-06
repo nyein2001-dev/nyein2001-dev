@@ -1,9 +1,9 @@
 {
   "profile": {
     "name": "Nyein Chan Toe",
-    "job": "Mobile Developer",
+    "job": "Fullstack Developer",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "Seasoned mobile developer with a strong passion for innovation, specializing in both iOS and Android platforms. Expertise includes crafting user-centric apps with seamless functionality, spanning native and cross-platform development, backend integration, and emerging tech adoption, all aimed at elevating user experiences.",
+    "aboutMe": "Seasoned full-stack developer with over two years of experience, specializing in both web and mobile applications. Expertise in building user-centric apps with seamless functionality and developing and deploying robust web solutions using PHP (Laravel), HTML, CSS, JavaScript, and Next.js. Proficient in native frontend development, backend integration, and leveraging emerging technologies to enhance user experiences.",
     "socialNetwork": [
       {
         "name": "github",
@@ -57,24 +57,28 @@
   ],
   "skill": {
     "frontend": [
+      "React",
+      "Angular",
+      "Next.js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind",
       "Kotlin",
       "Flutter",
       "Dart",
       "React Native",
       "Swift",
       "SwiftUI",
-      "React",
-      "Angular",
-      "HTML",
-      "Mobile UI/UX Design",
       "Redux",
-      "Tailwind"
+      "UI/UX Design"
     ],
     "backend": [
+      "PHP (Laravel)",
+      "NodeJS",
       "Python",
       "Django",
       "Java",
-      "NodeJS",
       "C#",
       "Spring Boot",
       "GraphQL",
@@ -86,10 +90,10 @@
     "tools": [
       "Docker",
       "CI/CD",
-      "APIs Integration",
+      "Git",
       "Firebase",
       "WebSockets",
-      "Git",
+      "APIs Integration",
       "Performance Optimization",
       "Unit Testing",
       "Integration Testing",
@@ -99,11 +103,14 @@
       "Geolocation",
       "Android Studio",
       "Xcode",
-      "VsCode"
+      "VsCode",
+      "Clean Code & Best Practices",
+      "Deployment"
     ],
     "development": [
       "Agile Methodologies",
-      "Android Jetpack"
+      "Android Jetpack",
+      "State Management"
     ]
   },
   "language": [
@@ -124,7 +131,7 @@
   ],
   "experience": [
     {
-      "job": "Mobile Developer",
+      "job": "FullStack Developer",
       "company": "Myanmar Information Technology Pte Ltd",
       "companyLogo": "img/company/mit.png",
       "location": "Yangon",
