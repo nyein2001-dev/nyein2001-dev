@@ -55,26 +55,30 @@
       "value": "Remote or Fulltime"
     }
   ],
-  "skill": {
+ "skill": {
     "frontend": [
+      "React",
+      "Angular",
+      "Next.js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind",
       "Kotlin",
       "Flutter",
       "Dart",
       "React Native",
       "Swift",
       "SwiftUI",
-      "React",
-      "Angular",
-      "HTML",
-      "မိုဘိုင်း UI/UX ဒီဇိုင်း",
       "Redux",
-      "Tailwind"
+      "မိုဘိုင်း UI/UX ဒီဇိုင်း"
     ],
     "backend": [
+      "PHP (Laravel)",
+      "NodeJS",
       "Python",
       "Django",
       "Java",
-      "NodeJS",
       "C#",
       "Spring Boot",
       "GraphQL",
@@ -83,7 +87,7 @@
       "MySQL",
       "Microsoft SQL"
     ],
-    "tools": [
+   "tools": [
       "Docker",
       "CI/CD",
       "API ပေါင်းစပ်ခြင်း",
@@ -99,11 +103,14 @@
       "Geolocation",
       "Android Studio",
       "Xcode",
-      "VsCode"
+      "VsCode",
+      "Clean Code & Best Practices",
+      "Deployment"
     ],
     "development": [
       "Agile Methodologies",
-      "Android Jetpack"
+      "Android Jetpack",
+      "State Management"
     ]
   },
   "language": [
