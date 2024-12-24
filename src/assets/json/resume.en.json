@@ -135,6 +135,16 @@
   ],
   "experience": [
     {
+      "job": "Freelance Developer",
+      "company": "Gravitas Digital",
+      "companyLogo": "img/company/gd.jpg",
+      "location": "Petaling Jaya, Selangor, Malaysia",
+      "workType": "Remote",
+      "start": "oct 2024",
+      "end": "present",
+      "description": "As a Freelance Web Developer at Gravitas Digital, I have designed and developed dynamic, user-centric web applications using Next.js and modern JavaScript frameworks. I have extensive experience working with various CMS tools, including WordPress, Strapi, and others, to deliver scalable and customizable content management solutions. Skilled in AWS cloud services, I ensure seamless deployment and efficient hosting of web applications. Additionally, I have worked with relational databases such as PostgreSQL and MySQL to manage data effectively. With a strong foundation in UI/UX design, I prioritize creating intuitive interfaces and optimal user experiences. My problem-solving skills enable me to identify and resolve technical challenges efficiently, ensuring high-quality, performance-driven solutions for clients."
+    },
+    {
       "job": "FullStack Developer",
       "company": "Myanmar Information Technology Pte Ltd",
       "companyLogo": "img/company/mit.png",
